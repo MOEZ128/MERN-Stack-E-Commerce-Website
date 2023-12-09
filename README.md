@@ -87,6 +87,3 @@ $ ng serve
     - Edit/Delete offensive user comments
     - Block/Unblock user from commenting
     - Change unappropriate user avatars
-### License
-
-MIT
