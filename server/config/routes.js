@@ -19,6 +19,7 @@ module.exports = (APP) => {
     APP.post('/user/cart/add/:bookId', AUTH.isAuth, CART_CONTROLLER.addToCart);
     APP.delete('/user/cart/delete/:bookId', AUTH.isAuth, CART_CONTROLLER.removeFromCart);
     APP.post('/user/cart/checkout', AUTH.isAuth, CART_CONTROLLER.checkout);
+    app.get('/book/genre/:genre', BOOK_CONTROLLER.getByGenre);
 
     APP.get('/book/search', BOOK_CONTROLLER.search);
     APP.get('/book/details/:bookId', BOOK_CONTROLLER.getSingle);

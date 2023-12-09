@@ -1,9 +1,8 @@
 <nav class="topnav">
   <a routerLink="/home">Home</a>
-  <a routerLink="/book/store/default">Book Store</a>
+  <a routerLink="/book/store/default">Store</a>
   <ng-template [ngIf]="isUserLogged()">
-    <a routerLink="/user/profile/mine">My Profile</a>
-    <a routerLink="/user/purchaseHistory">My Purchase History</a>
+    <a routerLink="/user/purchaseHistory">Purchase History</a>
     <a *ngIf="isUserAdmin()" routerLink="/book/create">Create Book</a>
   </ng-template>
   <div class="search-container">
@@ -11,18 +10,23 @@
       <input type="text" name="query" placeholder="title, author, genre, ISBN..." formControlName="query" />
       <button type="submit" [disabled]="searchForm.invalid"><i class="fa fa-search"></i></button>
     </form>
+    
   </div>
+
   <div>
     <ng-template [ngIf]="!isUserLogged()">
       <a class="menu-item-right" routerLink="/user/register">Register</a>
       <a class="menu-item-right" routerLink="/user/login">Login</a>
     </ng-template>
     <ng-template [ngIf]="isUserLogged()">
-      <a class="menu-item-right" routerLink="/home" (click)="logout()">
-        {{getUsername()}}
-        <span>Hello, {{username}}</span> Logout
-      </a>
+      <a class="menu-item-right" routerLink="/home" (click)="logout()">Logout</a>
+      <a class="menu-item-right" routerLink="/user/profile/mine"> {{getUsername()}} {{username}}</a>
       <a class="menu-item-right" routerLink="/user/cart">Cart ({{cartItems}})</a>
     </ng-template>
   </div>
+  <select class="menu-item-right" (change)="onSelectGenre($event.target.value)">
+    <option *ngFor="let genre of genres" [value]="genre">
+      {{genre}}
+    </option>
+  </select>
 </nav>

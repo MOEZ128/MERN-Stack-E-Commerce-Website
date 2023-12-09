@@ -58,7 +58,16 @@
   padding: 25px 18px;
   text-decoration: none;
   font-size: 17px;
-}
+  background-color: #313532; /* Match the background color of the navbar */
+  border: none; /* Remove the default border */
+  cursor: pointer;
+ }
+ 
+ .menu-item-right select {
+  background-color: #313532; /* Match the background color of the navbar */
+  color: #FFF; /* Match the text color of the navbar */
+  border: none; /* Remove the default border */
+  }
 
 @media screen and (max-width: 600px) {
   .topnav .search-container {

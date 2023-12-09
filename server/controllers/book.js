@@ -58,7 +58,24 @@ function validateBookForm(payload) {
         errors
     };
 }
-
+getByGenre: (req, res) => {
+    let genre = req.params.genre;
+  
+    BOOK.find({ genre: genre })
+        .then(books => {
+            res.status(200).json({
+                message: '',
+                data: books
+            });
+        })
+        .catch(err => {
+            console.log(err);
+            res.status(400).json({
+                message: 'Something went wrong, please try again.'
+            });
+        });
+  },
+  
 function validateRatingForm(payload) {
     let errors = {};
     let isFormValid = true;

@@ -1,0 +1,10 @@
+<h2>{{ genre | titlecase }} Books</h2>
+<ng-template [ngIf]="books">
+  <div class="books-store">
+    <app-book *ngFor="let book of books" [book]="book"></app-book>
+  </div>
+  <div *ngIf="books.length === 0" class="no-results">
+    <img src="https://i.imgur.com/KRVihMq.png" alt="no-item-found">
+  </div>
+  <!-- Add pagination controls if needed -->
+</ng-template>

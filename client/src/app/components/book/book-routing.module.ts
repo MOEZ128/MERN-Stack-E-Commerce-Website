@@ -10,7 +10,7 @@ import { BookEditComponent } from './book-edit/book-edit.component';
 import { BookDeleteComponent } from './book-delete/book-delete.component';
 import { BookDetailsComponent } from './book-details/book-details.component';
 import { BookStoreComponent } from './book-store/book-store.component';
-
+import {BooksByGenreComponent} from './books-by-genre/books-by-genre.component';
 // Guards
 import { IsAdminGuard } from '../../core/guards/is-admin.guard';
 
@@ -23,6 +23,10 @@ const bookRoutes: Routes = [
   {
     path: 'store/:query',
     component: BookStoreComponent
+  },
+  {
+    path: 'genre/:genreName',
+    component: BooksByGenreComponent
   },
   {
     path: 'details/:bookId',

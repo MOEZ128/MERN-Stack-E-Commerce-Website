@@ -61,7 +61,13 @@ export class NavigationComponent implements OnInit, OnDestroy {
         }
       });
   }
+// Add a new property to hold the genres
+genres: string[] = ['Fantasy', 'Classics', 'Science Fiction', 'Thriller', 'Mystery', 'Romance']; // Add all genres here
 
+// Add a new method to handle genre selection
+onSelectGenre(genre: string): void {
+  this.router.navigate([`/books/genre/${genre}`]);
+}
   ngOnDestroy(): void {
     window.clearInterval(this.statusChecker);
     this.isLoggedSub$.unsubscribe();

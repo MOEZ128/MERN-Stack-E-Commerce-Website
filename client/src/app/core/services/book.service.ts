@@ -30,7 +30,9 @@ export class BookService {
   getSingleBook(id: string): Observable<ServerResponse<Book>> {
     return this.http.get<ServerResponse<Book>>(getSingleBookEndpoint + id);
   }
-
+  getBooksByGenre(genre: string): Observable<ServerResponse<Book[]>> {
+    return this.http.get<ServerResponse<Book[]>>(`${domain}/book/genre/${genre}`);
+  }
   createBook(payload: Book): Observable<ServerResponse<Book>> {
     return this.http.post<ServerResponse<Book>>(createBookEndpoint, payload);
   }
