@@ -1,10 +1,9 @@
-<h2>{{ genre | titlecase }} Books</h2>
-<ng-template [ngIf]="books">
-  <div class="books-store">
-    <app-book *ngFor="let book of books" [book]="book"></app-book>
+<!-- books-by-genre.component.html -->
+<div class="books-by-genre">
+  <h2>Books in {{ genre }} Genre</h2>
+  <div *ngFor="let book of books" class="book">
+    <h3>{{ book.title }}</h3>
+    <p>{{ book.description }}</p>
+    <!-- Add more book details here -->
   </div>
-  <div *ngIf="books.length === 0" class="no-results">
-    <img src="https://i.imgur.com/KRVihMq.png" alt="no-item-found">
-  </div>
-  <!-- Add pagination controls if needed -->
-</ng-template>
+</div>
