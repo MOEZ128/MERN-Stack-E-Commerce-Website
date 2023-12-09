@@ -16,11 +16,15 @@ export class BooksByGenreComponent implements OnInit {
   constructor(
     private route: ActivatedRoute,
     private bookService: BookService
-  ) { }
+  ) {
+    console.log('BooksByGenreComponent initialized');
+
+   }
 
   ngOnInit(): void {
     this.route.params.subscribe(params => {
       this.genre = params['genre'];
+      console.log('ngOnInit - Genre:', this.genre); // This will log the genre when the component initializes
       this.fetchBooksByGenre(this.genre);
     });
   }
@@ -28,6 +32,7 @@ export class BooksByGenreComponent implements OnInit {
   fetchBooksByGenre(genre: string): void {
     this.bookService.getBooksByGenre(genre).subscribe(
       (response) => {
+        console.log('Books fetched:', response.data);
         this.books = response.data;
       },
       (error) => {
@@ -35,4 +40,4 @@ export class BooksByGenreComponent implements OnInit {
       }
     );
   }
-}
+  }

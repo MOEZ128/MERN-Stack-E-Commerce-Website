@@ -66,8 +66,8 @@ genres: string[] = ['Fantasy', 'Classics', 'Science Fiction', 'Thriller', 'Myste
 
 // Add a new method to handle genre selection
 onSelectGenre(genre: string): void {
-  this.router.navigate([`/books/genre/${genre}`]);
-}
+  console.log('Genre selected:', genre);
+  this.router.navigate([`/book/genre/${genre}`]);}
   ngOnDestroy(): void {
     window.clearInterval(this.statusChecker);
     this.isLoggedSub$.unsubscribe();
