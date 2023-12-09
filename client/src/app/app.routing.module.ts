@@ -6,12 +6,12 @@ import { RouterModule, Routes, PreloadAllModules } from '@angular/router';
 
 // Components
 import { HomeComponent } from './components/landing/home/home.component';
-
-const routes: Routes = [
+ const routes: Routes = [
   {
     path: 'user',
     loadChildren: './components/user/user.module#UserModule'
   },
+ 
   {
     path: 'book',
     loadChildren: './components/book/book.module#BookModule'
