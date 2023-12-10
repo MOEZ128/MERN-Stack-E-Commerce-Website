@@ -26,7 +26,7 @@
         <div class="comment-body">
           <p>{{c.content}}</p>
           <button 
-            [hidden]="!isAdmin && c.user._id !== userId"
+            [hidden]="isAdmin && c.user._id !== userId"
             type="button"
             class="btn btn-primary btn-sm"
             (click)="openFormModal(commentFormTemplate, c._id)">Edit Comment
