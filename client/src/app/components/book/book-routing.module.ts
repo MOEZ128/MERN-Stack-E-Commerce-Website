@@ -34,7 +34,6 @@ const bookRoutes: Routes = [
   },
   {
     path: 'create',
-    canActivate: [IsAdminGuard],
     component: BookCreateComponent
   },
   {

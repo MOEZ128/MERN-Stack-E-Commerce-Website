@@ -23,7 +23,7 @@ module.exports = (APP) => {
 
     APP.get('/book/search', BOOK_CONTROLLER.search);
     APP.get('/book/details/:bookId', BOOK_CONTROLLER.getSingle);
-    APP.post('/book/add', AUTH.isInRole('Admin'), BOOK_CONTROLLER.add);
+    APP.post('/book/add', AUTH.isAuth, BOOK_CONTROLLER.add);
     APP.put('/book/edit/:bookId', AUTH.isInRole('Admin'), BOOK_CONTROLLER.edit);
     APP.delete('/book/delete/:bookId', AUTH.isInRole('Admin'), BOOK_CONTROLLER.delete);
     APP.post('/book/rate/:bookId', AUTH.isAuth, BOOK_CONTROLLER.rate);
