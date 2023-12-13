@@ -49,7 +49,9 @@ export class BookDetailsComponent implements OnInit {
         this.calcRating(this.book.currentRating);
       });
   }
-
+  downloadBook(): void {
+    window.open(this.book.url, "_blank");
+  }
   buyBook(): void {
     this.cartService
       .addToCart(this.bookId)

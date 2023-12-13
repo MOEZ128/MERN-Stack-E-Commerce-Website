@@ -4,6 +4,8 @@
 
 .book-details img {
   border-radius: 5px;
+  width: 250px;
+  height: 400px;
 }
 
 .book-info {
