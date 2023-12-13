@@ -1,30 +1,753 @@
-{"_id":{"$oid":"5b80028f5b8f1b10d4b666d1"},"currentRating":0,"ratingPoints":0,"ratedCount":0,"ratedBy":[],"purchasesCount":12,"comments":[],"title":"The Final Empire (Mistborn #1)","author":"Brandon Sanderson","genre":"Fantasy","year":2006,"description":"For a thousand years the ash fell and no flowers bloomed. For a thousand years the Skaa slaved in misery and lived in fear. For a thousand years the Lord Ruler, the \"Sliver of Infinity,\" reigned with absolute power and ultimate terror, divinely invincible. Then, when hope was so long lost that not even its memory remained, a terribly scarred, heart-broken half-Skaa rediscovered it in the depths of the Lord Ruler's most hellish prison. Kelsier \"snapped\" and found in himself the powers of a Mistborn. A brilliant thief and natural leader, he turned his talents to the ultimate caper, with the Lord Ruler himself as the mark.","cover":"https://i.imgur.com/VRtPMP2.jpg","isbn":"076531178X","pagesCount":541,"price":5.75,"creationDate":{"$date":"2018-08-24T13:05:19.016Z"},"__v":0}
-{"_id":{"$oid":"5b8002905b8f1b10d4b666d2"},"currentRating":0,"ratingPoints":0,"ratedCount":0,"ratedBy":[],"purchasesCount":13,"comments":[],"title":"The Well of Ascension (Mistborn #2)","author":"Brandon Sanderson","genre":"Fantasy","year":2007,"description":"The impossible has been accomplished. The Lord Ruler -- the man who claimed to be god incarnate and brutally ruled the world for a thousand years -- has been vanquished. But Kelsier, the hero who masterminded that triumph, is dead too, and now the awesome task of building a new world has been left to his young protégé, Vin, the former street urchin who is now the most powerful Mistborn in the land, and to the idealistic young nobleman she loves.","cover":"https://i.imgur.com/lZKZckN.jpg","isbn":"0765316889","pagesCount":592,"price":11.04,"creationDate":{"$date":"2018-08-24T13:05:20.024Z"},"__v":0}
-{"_id":{"$oid":"5b8002905b8f1b10d4b666d3"},"currentRating":0,"ratingPoints":0,"ratedCount":0,"ratedBy":[],"purchasesCount":0,"comments":[],"title":"The Alloy of Law (Mistborn #4)","author":"Brandon Sanderson","genre":"Fantasy","year":2011,"description":"Three hundred years after the events of the Mistborn trilogy, Scadrial is now on the verge of modernity, with railroads to supplement the canals, electric lighting in the streets and the homes of the wealthy, and the first steel-framed skyscrapers racing for the clouds. Kelsier, Vin, Elend, Sazed, Spook, and the rest are now part of history—or religion. Yet even as science and technology are reaching new heights, the old magics of Allomancy and Feruchemy continue to play a role in this reborn world. Out in the frontier lands known as the Roughs, they are crucial tools for the brave men and women attempting to establish order and justice","cover":"https://i.imgur.com/tG6EDty.jpg","isbn":"0575105836","pagesCount":333,"price":9.59,"creationDate":{"$date":"2018-08-24T13:05:20.025Z"},"__v":0}
-{"_id":{"$oid":"5b8002905b8f1b10d4b666d4"},"currentRating":0,"ratingPoints":0,"ratedCount":0,"ratedBy":[],"purchasesCount":0,"comments":[],"title":"Shadows of Self (Mistborn #5)","author":"Brandon Sanderson","genre":"Fantasy","year":2015,"description":"When family obligations forced Waxillium Ladrian to forsake the frontier lands and return to the metropolis of his birth to take his place as head of a noble House, he little imagined that the crime-fighting skills acquired during twenty years in the dusty plains would be just as applicable in the big city. He soon learned that there too, just being a talented Twinborn — one who can use both Allomancy and Feruchemy, the dominant magical modes on Scadrial — would not suffice.","cover":"https://i.imgur.com/hEUMqhm.jpg","isbn":"9780765378552","pagesCount":385,"price":12.09,"creationDate":{"$date":"2018-08-24T13:05:20.025Z"},"__v":0}
-{"_id":{"$oid":"5b8002905b8f1b10d4b666d5"},"currentRating":0,"ratingPoints":0,"ratedCount":0,"ratedBy":[],"purchasesCount":14,"comments":[],"title":"The Hero of Ages (Mistborn #3)","author":"Brandon Sanderson","genre":"Fantasy","year":2008,"description":"To end the Final Empire and restore freedom, Vin killed the Lord Ruler. But as a result, the Deepness--the lethal form of the ubiquitous mists--is back, along with increasingly heavy ashfalls and ever more powerful earthquakes. Humanity appears to be doomed.","cover":"https://i.imgur.com/7m7fOma.jpg","isbn":"0765316897","pagesCount":576,"price":8.11,"creationDate":{"$date":"2018-08-24T13:05:20.028Z"},"__v":0}
-{"_id":{"$oid":"5b8002915b8f1b10d4b666d6"},"currentRating":0,"ratingPoints":0,"ratedCount":0,"ratedBy":[],"purchasesCount":19,"comments":[],"title":"Words of Radiance (The Stormlight Archive #2)","author":"Brandon Sanderson","genre":"Fantasy","year":2014,"description":"Expected by his enemies to die the miserable death of a military slave, Kaladin survived to be given command of the royal bodyguards, a controversial first for a low-status \"darkeyes.\" Now he must protect the king and Dalinar from every common peril as well as the distinctly uncommon threat of the Assassin, all while secretly struggling to master remarkable new powers that are somehow linked to his honorspren, Syl. The Assassin, Szeth, is active again, murdering rulers all over the world of Roshar, using his baffling powers to thwart every bodyguard and elude all pursuers. Among his prime targets is Highprince Dalinar, widely considered the power behind the Alethi throne. His leading role in the war would seem reason enough, but the Assassin's master has much deeper motives.","cover":"https://i.imgur.com/PkOUgGy.jpg","isbn":"9780765326362","pagesCount":1088,"price":12.91,"creationDate":{"$date":"2018-08-24T13:05:21.039Z"},"__v":0}
-{"_id":{"$oid":"5b8002915b8f1b10d4b666d7"},"currentRating":5,"ratingPoints":10,"ratedCount":2,"ratedBy":[],"purchasesCount":0,"comments":[],"title":"1984","author":"George Orwell","genre":"Classics","year":1948,"description":"In 1984, London is a grim city in the totalitarian state of Oceania where Big Brother is always watching you and the Thought Police can practically read your mind. Winston Smith is a man in grave danger for the simple reason that his memory still functions. Drawn into a forbidden love affair, Winston finds the courage to join a secret revolutionary organization called The Brotherhood, dedicated to the destruction of the Party. Together with his beloved Julia, he hazards his life in a deadly match against the powers that be.","cover":"https://i.imgur.com/33fZ6pq.jpg","isbn":"0452262933","pagesCount":237,"price":10.87,"creationDate":{"$date":"2018-08-24T13:05:21.039Z"},"__v":0}
-{"_id":{"$oid":"5b8002915b8f1b10d4b666d8"},"currentRating":0,"ratingPoints":0,"ratedCount":0,"ratedBy":[],"purchasesCount":0,"comments":[],"title":"The Bands of Mourning (Mistborn #6)","author":"Brandon Sanderson","genre":"Fantasy","year":2016,"description":"The Bands of Mourning are the mythical metal minds owned by the Lord Ruler, said to grant anyone who wears them the powers that the Lord Ruler had at his command. Hardly anyone thinks they really exist. A kandra researcher has returned to Elendel with images that seem to depict the Bands, as well as writings in a language that no one can read. Waxillium Ladrian is recruited to travel south to the city of New Seran to investigate. Along the way he discovers hints that point to the true goals of his uncle Edwarn and the shadowy organization known as The Set.","cover":"https://i.imgur.com/tJXcf3W.jpg","isbn":"9780765378576","pagesCount":448,"price":12.28,"creationDate":{"$date":"2018-08-24T13:05:21.039Z"},"__v":0}
-{"_id":{"$oid":"5b8002915b8f1b10d4b666d9"},"currentRating":0,"ratingPoints":0,"ratedCount":0,"ratedBy":[],"purchasesCount":0,"comments":[],"title":"A Clash of Kings (A Song of Ice and Fire #2)","author":"George R. R. Martin","genre":"Fantasy","year":1999,"description":"A comet the color of blood and flame cuts across the sky. And from the ancient citadel of Dragonstone to the forbidding shores of Winterfell, chaos reigns. Six factions struggle for control of a divided land and the Iron Throne of the Seven Kingdoms, preparing to stake their claims through tempest, turmoil, and war. It is a tale in which brother plots against brother and the dead rise to walk in the night. Here a princess masquerades as an orphan boy; a knight of the mind prepares a poison for a treacherous sorceress; and wild men descend from the Mountains of the Moon to ravage the countryside. Against a backdrop of incest and fratricide, alchemy and murder, victory may go to the men and women possessed of the coldest steel and the coldest hearts. For when kings clash, the whole land trembles.","cover":"https://i.imgur.com/SjQ8z6n.jpg","isbn":"0553108034","pagesCount":770,"price":15.17,"creationDate":{"$date":"2018-08-24T13:05:21.040Z"},"__v":0}
-{"_id":{"$oid":"5b8002915b8f1b10d4b666da"},"currentRating":4.5,"ratingPoints":9,"ratedCount":2,"ratedBy":[],"purchasesCount":0,"comments":[],"title":"Fahrenheit 451","author":"Ray Bradbury","genre":"Classics","year":1953,"description":"Guy Montag is a fireman. In his world, where television rules and literature is on the brink of extinction, firemen start fires rather than put them out. His job is to destroy the most illegal of commodities, the printed book, along with the houses in which they are hidden. Montag never questions the destruction and ruin his actions produce, returning each day to his bland life and wife, Mildred, who spends all day with her television “family.” But then he meets an eccentric young neighbor, Clarisse, who introduces him to a past where people didn’t live in fear and to a present where one sees the world through the ideas in books instead of the mindless chatter of television.","cover":"https://i.imgur.com/1Y4OLwQ.jpg","isbn":"1451673310","pagesCount":249,"price":8.99,"creationDate":{"$date":"2018-08-24T13:05:21.040Z"},"__v":0}
-{"_id":{"$oid":"5b8002915b8f1b10d4b666db"},"currentRating":0,"ratingPoints":0,"ratedCount":0,"ratedBy":[],"purchasesCount":0,"comments":[],"title":"The Wrong Side of Goodbye (Harry Bosch #19)","author":"Michael Connelly","genre":"Crime novel","year":2016,"description":"Harry Bosch is California's newest private investigator. He doesn't advertise, he doesn't have an office, and he's picky about who he works for, but it doesn't matter. His chops from thirty years with the LAPD speak for themselves.Soon one of Southern California's biggest moguls comes calling. The reclusive billionaire is nearing the end of his life and is haunted by one regret. When he was young, he had a relationship with a Mexican girl, his great love. But soon after becoming pregnant, she disappeared. Did she have the baby? And if so, what happened to it?","cover":"https://i.imgur.com/n0BuYOy.jpg","isbn":"1455524212","pagesCount":448,"price":11.18,"creationDate":{"$date":"2018-08-24T13:05:21.040Z"},"__v":0}
-{"_id":{"$oid":"5b8002915b8f1b10d4b666dc"},"currentRating":0,"ratingPoints":0,"ratedCount":0,"ratedBy":[],"purchasesCount":0,"comments":[],"title":"Origin (Robert Langdon #5)","author":"Dan Brown","genre":"Thriller","year":2017,"description":"Robert Langdon, Harvard professor of symbology, arrives at the ultramodern Guggenheim Museum Bilbao to attend the unveiling of a discovery that “will change the face of science forever.” The evening’s host is Edmond Kirsch, a forty-year-old billionaire and futurist, and one of Langdon’s first students. But the meticulously orchestrated evening suddenly erupts into chaos, and Kirsch’s precious discovery teeters on the brink of being lost forever. Facing an imminent threat, Langdon is forced to flee. With him is Ambra Vidal, the elegant museum director who worked with Kirsch. They travel to Barcelona on a perilous quest to locate a cryptic password that will unlock Kirsch’s secret.","cover":"https://i.imgur.com/o8yWvWV.jpg","isbn":"0525563709","pagesCount":656,"price":7.49,"creationDate":{"$date":"2018-08-24T13:05:21.041Z"},"__v":0}
-{"_id":{"$oid":"5b8002915b8f1b10d4b666dd"},"currentRating":0,"ratingPoints":0,"ratedCount":0,"ratedBy":[],"purchasesCount":18,"comments":[],"title":"The Way of Kings (The Stormlight Archive #1)","author":"Brandon Sanderson","genre":"Fantasy","year":2010,"description":"Roshar is a world of stone and storms. Uncanny tempests of incredible power sweep across the rocky terrain so frequently that they have shaped ecology and civilization alike. Animals hide in shells, trees pull in branches, and grass retracts into the soilless ground. Cities are built only where the topography offers shelter.It has been centuries since the fall of the ten consecrated orders known as the Knights Radiant, but their Shardblades and Shardplate remain: mystical swords and suits of armor that transform ordinary men into near-invincible warriors. Men trade kingdoms for Shardblades. Wars were fought for them, and won by them.","cover":"https://i.imgur.com/xxu5ma0.jpg","isbn":"9780765326355","pagesCount":1009,"price":11.76,"creationDate":{"$date":"2018-08-24T13:05:21.041Z"},"__v":0}
-{"_id":{"$oid":"5b8002915b8f1b10d4b666de"},"currentRating":0,"ratingPoints":0,"ratedCount":0,"ratedBy":[],"purchasesCount":0,"comments":[],"title":"A Storm of Swords (A Song of Ice and Fire #3)","author":"George R. R. Martin","genre":"Fantasy","year":2000,"description":"Of the five contenders for power, one is dead, another in disfavor, and still the wars rage as violently as ever, as alliances are made and broken. Joffrey, of House Lannister, sits on the Iron Throne, the uneasy ruler of the land of the Seven Kingdoms. His most bitter rival, Lord Stannis, stands defeated and disgraced, the victim of the jealous sorceress who holds him in her evil thrall. But young Robb, of House Stark, still rules the North from the fortress of Riverrun. Robb plots against his despised Lannister enemies, even as they hold his sister hostage at King’s Landing, the seat of the Iron Throne. Meanwhile, making her way across a blood-drenched continent is the exiled queen, Daenerys, mistress of the only three dragons still left in the world","cover":"https://i.imgur.com/vH8AB8S.jpg","isbn":"0553106635","pagesCount":1216,"price":13.99,"creationDate":{"$date":"2018-08-24T13:05:21.041Z"},"__v":0}
-{"_id":{"$oid":"5b8002915b8f1b10d4b666df"},"currentRating":0,"ratingPoints":0,"ratedCount":0,"ratedBy":[],"purchasesCount":0,"comments":[],"title":"King Rat (Asian Saga #4)","author":"James Clavell","genre":"Classics","year":1962,"description":"The time is World War II. The place is a brutal prison camp deep in Japanese-occupied territory. Here, within the seething mass of humanity, one man, an American corporal, seeks dominance over both captives and captors alike. His weapons are human courage, unblinking understanding of human weaknesses, and total willingness to exploit every opportunity to enlarge his power and corrupt or destroy anyone who stands in his path.","cover":"https://i.imgur.com/6Pcnx6j.jpg","isbn":"0385333765","pagesCount":368,"price":16,"creationDate":{"$date":"2018-08-24T13:05:21.042Z"},"__v":0}
-{"_id":{"$oid":"5b8002915b8f1b10d4b666e0"},"currentRating":0,"ratingPoints":0,"ratedCount":0,"ratedBy":[],"purchasesCount":0,"comments":[],"title":"Two Kinds of Truth (Harry Bosch #20","author":"Michael Connelly","genre":"Crime novel","year":2017,"description":"Harry Bosch works cold cases, helping out the under-funded San Fernando police department. When a double murder at a local pharmacy is called in, Bosch is the most seasoned detective on the scene. But with experience, come the ghosts of long-forgotten crimes. A death row inmate claims Bosch framed him, and that new DNA evidence proves it. The LAPD investigators say the case is watertight, leaving Bosch out in the wilderness to clear his name and keep a sadistic killer behind bars. There's only one person he can trust to help prove his innocence: Mickey Haller, The Lincoln Lawyer.","cover":"https://i.imgur.com/KaR416M.jpg","isbn":"1409147592","pagesCount":480,"price":5.75,"creationDate":{"$date":"2018-08-24T13:05:21.042Z"},"__v":0}
-{"_id":{"$oid":"5b8002915b8f1b10d4b666e1"},"currentRating":0,"ratingPoints":0,"ratedCount":0,"ratedBy":[],"purchasesCount":0,"comments":[],"title":"Metro 2033 (Metro Series #1)","author":"Dmitry Glukhovsky","genre":"Post-apocalyptic","year":2013,"description":"The novel that gave birth to the video games 'Metro 2033' and 'Metro: Last Light'. The breathtaking original story that inspired both the METRO 2033 and METRO: LAST LIGHT video games! An international bestseller, translated into 35 languages. Set in the shattered subway of a post apocalyptic Moscow, Metro 2033 is a story of intensive underground survival where the fate of mankind rests in your hands. In 2013 the world was devastated by an apocalyptic event, annihilating almost all mankind and turning the earth’s surface into a poisonous wasteland. A handful of survivors took refuge in the depths of the Moscow underground, and human civilization entered a new Dark Age. The year is 2033. An entire generation has been born and raised underground, and their besieged Metro Station-Cities struggle for survival, with each other, and the mutant horrors that await outside. Artyom was born in the last days before the fire. Having never ventured beyond his Metro Station-City limits, one fateful event sparks a desperate mission to the heart of the Metro system, to warn the remnants of mankind of a terrible impending threat. His journey takes him from the forgotten catacombs beneath the subway to the desolate wastelands above, where his actions will determine the fate of mankind. BURIED. ALIVE. It is now two decades since the planet was convulsed by the Final War, which flashed across the continents, engulfing all of them in an instant, to close the final chapter in our history.","cover":"https://i.imgur.com/USKxLmk.jpg","isbn":"1481845705","pagesCount":460,"price":16.35,"creationDate":{"$date":"2018-08-24T13:05:21.042Z"},"__v":0}
-{"_id":{"$oid":"5b8002915b8f1b10d4b666e2"},"currentRating":0,"ratingPoints":0,"ratedCount":0,"ratedBy":[],"purchasesCount":20,"comments":[],"title":"Oathbringer (The Stormlight Archive #3)","author":"Brandon Sanderson","genre":"Fantasy","year":2017,"description":"In Oathbringer, the third volume of the New York Times bestselling Stormlight Archive, humanity faces a new Desolation with the return of the Voidbringers, a foe with numbers as great as their thirst for vengeance.Dalinar Kholin's Alethi armies won a fleeting victory at a terrible cost: The enemy Parshendi summoned the violent Everstorm, which now sweeps the world with destruction, and in its passing awakens the once peaceful and subservient parshmen to the horror of their millennia-long enslavement by humans. While on a desperate flight to warn his family of the threat, Kaladin Stormblessed must come to grips with the fact that the newly kindled anger of the parshmen may be wholly justified.","cover":"https://i.imgur.com/kBAPdwo.jpg","isbn":"9780765326379","pagesCount":1220,"price":20.18,"creationDate":{"$date":"2018-08-24T13:05:21.043Z"},"__v":0}
-{"_id":{"$oid":"5b8002915b8f1b10d4b666e3"},"currentRating":0,"ratingPoints":0,"ratedCount":0,"ratedBy":[],"purchasesCount":0,"comments":[],"title":"A Feast for Crows (A Song of Ice and Fire #4)","author":"George R. R. Martin","genre":"Fantasy","year":2005,"description":"It seems too good to be true. After centuries of bitter strife and fatal treachery, the seven powers dividing the land have decimated one another into an uneasy truce. Or so it appears. . . . With the death of the monstrous King Joffrey, Cersei is ruling as regent in King’s Landing. Robb Stark’s demise has broken the back of the Northern rebels, and his siblings are scattered throughout the kingdom like seeds on barren soil. Few legitimate claims to the once desperately sought Iron Throne still exist—or they are held in hands too weak or too distant to wield them effectively. The war, which raged out of control for so long, has burned itself out.","cover":"https://i.imgur.com/1uqC2to.jpg","isbn":"0002247437","pagesCount":947,"price":14.7,"creationDate":{"$date":"2018-08-24T13:05:21.043Z"},"__v":0}
-{"_id":{"$oid":"5b8002915b8f1b10d4b666e4"},"currentRating":0,"ratingPoints":0,"ratedCount":0,"ratedBy":[],"purchasesCount":0,"comments":[],"title":"Dracula","author":"Bram Stoker","genre":"Horror","year":1897,"description":"Prince of the Night. Lord of the Damned. King of Vampires. He is Dracula, the most well-known vampire in the world—and this new illustrated edition of Bram Stoker’s classic tale of terror offers Dracula as you have never seen him before. Brought to life through the stunning visual artistry of Eisner Award-winning illustrator Becky Cloonan (Demo, American Virgin, Victor Von Doom), this new graphically compelling novel offers a spellbinding, edition of the book that launched the world’s enduring fascination with vampires: Bram Stoker’s complete and unabridged Dracula. Illuminated and accentuated by the visionary hand of one of America’s most gifted illustrators, Dracula is perfect for fans of the ghastly and paranormal, and unmissable for fans of True Blood, The Vampire Diaries, and Tim Burton’s macabre new film, Dark Shadows (release May 11, 2012) starring Johnny Depp, Helena Bonham-Carter, Michelle Pfeiffer, Eva Green, and Jackie Earle Haley.","cover":"https://i.imgur.com/MC2iyOC.jpg","isbn":"0061992151","pagesCount":384,"price":11.94,"creationDate":{"$date":"2018-08-24T13:05:21.043Z"},"__v":0}
-{"_id":{"$oid":"5b8002915b8f1b10d4b666e5"},"currentRating":0,"ratingPoints":0,"ratedCount":0,"ratedBy":[],"purchasesCount":0,"comments":[],"title":"The Gods of Guilt (Mickey Haller #5)","author":"Michael Connelly","genre":"Crime novel","year":2013,"description":"Mickey Haller gets the text, \"Call me ASAP - 187,\" and the California penal code for murder immediately gets his attention. Murder cases have the highest stakes and the biggest paydays, and they always mean Haller has to be at the top of his game. When Mickey learns that the victim was his own former client, a prostitute he thought he had rescued and put on the straight and narrow path, he knows he is on the hook for this one. He soon finds out that she was back in LA and back in the life. Far from saving her, Mickey may have been the one who put her in danger.","cover":"https://i.imgur.com/cLN9E2T.jpg","isbn":"1455575992","pagesCount":416,"price":12.79,"creationDate":{"$date":"2018-08-24T13:05:21.044Z"},"__v":0}
-{"_id":{"$oid":"5b8002915b8f1b10d4b666e6"},"currentRating":0,"ratingPoints":0,"ratedCount":0,"ratedBy":[],"purchasesCount":0,"comments":[],"title":"Metro 2034 (Metro Series #2)","author":"Dmitry Glukhovsky","genre":"Post-apocalyptic","year":2015,"description":"The long-awaited sequel to the cult bestseller Metro 2033, the second volume in the Metro trilogy, Metro 2034 continues the story of survival and struggle that unfolds in the mazes of the Moscow subway after WWIII. As the entire civilization was wiped out by atomic bombs and the surface of the planet is polluted with neclear fallout, the only place suitable for men to live are shelters and bunkers, the largest of which is the subway system of Moscow, aka the Metro. The year is 2034. There's no hope for humans to return to the surface of Earth, to repopulate the forsaken cities, and to become once again the masters of the world they used to be. So they rebuild a strange and grotesque civilization in the tunnels and at the stations of the subway. Stations become city-states that wage trade and war on each other. A fragile equilibrium is established. And then all can be ruined in matter of days. A new horrible threat looms that can eradicate the remains of humanity and end our era. It would take three unlikely heroes to face this menace.","cover":"https://i.imgur.com/ecmAq3i.jpg","isbn":"1473204305","pagesCount":320,"price":12.59,"creationDate":{"$date":"2018-08-24T13:05:21.044Z"},"__v":0}
-{"_id":{"$oid":"5b8002915b8f1b10d4b666e7"},"currentRating":0,"ratingPoints":0,"ratedCount":0,"ratedBy":[],"purchasesCount":0,"comments":[],"title":"A Game of Thrones (A Song of Ice and Fire #1)","author":"George R. R. Martin","genre":"Fantasy","year":1996,"description":"Long ago, in a time forgotten, a preternatural event threw the seasons out of balance. In a land where summers can last decades and winters a lifetime, trouble is brewing. The cold is returning, and in the frozen wastes to the north of Winterfell, sinister forces are massing beyond the kingdom’s protective Wall. To the south, the king’s powers are failing—his most trusted adviser dead under mysterious circumstances and his enemies emerging from the shadows of the throne. At the center of the conflict lie the Starks of Winterfell, a family as harsh and unyielding as the frozen land they were born to. Now Lord Eddard Stark is reluctantly summoned to serve as the king’s new Hand, an appointment that threatens to sunder not only his family but the kingdom itself.","cover":"https://i.imgur.com/ezQpwAd.jpg","isbn":"0553103547","pagesCount":819,"price":10.49,"creationDate":{"$date":"2018-08-24T13:05:21.044Z"},"__v":0}
-{"_id":{"$oid":"5b8002915b8f1b10d4b666e8"},"currentRating":0,"ratingPoints":0,"ratedCount":0,"ratedBy":[],"purchasesCount":0,"comments":[],"title":"A Dance with Dragons (A Song of Ice and Fire #5)","author":"George R. R. Martin","genre":"Fantasy","year":2011,"description":"In the aftermath of a colossal battle, the future of the Seven Kingdoms hangs in the balance—beset by newly emerging threats from every direction. In the east, Daenerys Targaryen, the last scion of House Targaryen, rules with her three dragons as queen of a city built on dust and death. But Daenerys has thousands of enemies, and many have set out to find her. As they gather, one young man embarks upon his own quest for the queen, with an entirely different goal in mind.","cover":"https://i.imgur.com/lJ65073.jpg","isbn":"9780007456376","pagesCount":1201,"price":13.94,"creationDate":{"$date":"2018-08-24T13:05:21.045Z"},"__v":0}
-{"_id":{"$oid":"5b8002915b8f1b10d4b666e9"},"currentRating":0,"ratingPoints":0,"ratedCount":0,"ratedBy":[],"purchasesCount":0,"comments":[],"title":"Cujo","author":"Stephen King","genre":"Horror","year":1981,"description":"Outside a peaceful town in central Maine, a monster is waiting. Cujo is a two-hundred-pound Saint Bernard, the best friend Brett Camber has ever had. One day, Cujo chases a rabbit into a cave inhabited by sick bats and emerges as something new altogether. Meanwhile, Vic and Donna Trenton, and their young son Tad, move to Maine. They are seeking peace and quiet, but life in this small town is not what it seems. As Tad tries to fend off the terror that comes to him at night from his bedroom closet, and as Vic and Donna face their own nightmare of a marriage on the rocks, there is no way they can know that a monster, infinitely sinister, waits in the daylight.","cover":"https://i.imgur.com/Orv5Mmq.jpg","isbn":"1501192248","pagesCount":400,"price":17,"creationDate":{"$date":"2018-08-24T13:05:21.045Z"},"__v":0}
-{"_id":{"$oid":"5b8002915b8f1b10d4b666ea"},"currentRating":4,"ratingPoints":4,"ratedCount":1,"ratedBy":[],"purchasesCount":0,"comments":[],"title":"The Da Vinci Code (Robert Langdon #2)","author":"Dan Brown","genre":"Thriller","year":2003,"description":"While in Paris, Harvard symbologist Robert Langdon is awakened by a phone call in the dead of the night. The elderly curator of the Louvre has been murdered inside the museum, his body covered in baffling symbols. As Langdon and gifted French cryptologist Sophie Neveu sort through the bizarre riddles, they are stunned to discover a trail of clues hidden in the works of Leonardo da Vinci—clues visible for all to see and yet ingeniously disguised by the painter.","cover":"https://i.imgur.com/SCLWHCl.jpg","isbn":"0307474275","pagesCount":597,"price":7.99,"creationDate":{"$date":"2018-08-24T13:05:21.045Z"},"__v":0}
-{"_id":{"$oid":"5b8002915b8f1b10d4b666eb"},"currentRating":0,"ratingPoints":0,"ratedCount":0,"ratedBy":[],"purchasesCount":0,"comments":[],"title":"Metro 2035 (Metro Series #3)","author":"Dmitry Glukhovsky","genre":"Post-apocalyptic","year":2016,"description":"World War Three wiped out the humankind. The planet is empty now. Huge cities became dust and ashes. Railroads are being eaten by rust. Abandoned satellites hang lonely on the orbit. Radio is mute on all the frequencies. The only survivors of the last war were those who made it into the gates of the Metro, the subway system of Moscow city. It’s there, hundreds of feet below the ground, in the vaults of what was constructed as the world’s largest air-raids shelter that people try to outlive the end of the days. It’s there that they created a new world for themselves. The stations of Metro became city-states, and its citizens, torn apart by religions and ideologies are fighting for the now scarce commodities: air, water, and space. This tiny underground world can only remind humans of an immense world they once were the masters of. It’s been twenty years past Doomsday, and yet the survivors refuse to give up. The most stubborn of them keep cherishing a dream: when the radiation level from nuclear bombings subsides, they will be able to return to the surface and have the life their parents once had.","cover":"https://i.imgur.com/xEYJDiN.jpg","isbn":"1539930726","pagesCount":502,"price":17.99,"creationDate":{"$date":"2018-08-24T13:05:21.046Z"},"__v":0}
-{"_id":{"$oid":"5b8002915b8f1b10d4b666ec"},"currentRating":0,"ratingPoints":0,"ratedCount":0,"ratedBy":[],"purchasesCount":0,"comments":[],"title":"The Crossing (Harry Bosch #18)","author":"Michael Connelly","genre":"Crime novel","year":2015,"description":"Six months ago, Harry Bosch left the LAPD before they could fire him, and then hired maverick Defense Attorney Mickey Haller to sue the department for forcing him out. Although it wasn't the way he wanted to go, Harry has to admit that being out of the game has its benefits. Until Mickey asks him to help on one of his cases, and suddenly Harry is back where he belongs, right in the centre of a particularly puzzling murder mystery. The difference is, this time Harry is working for the defense, aiming to prevent the accused, Da'Quan Foster, from being convicted. And not only does the prosecution seem to have a cast-iron case, but having crossed over to 'the dark side' as his former colleagues would put it, Harry is in danger of betraying the very principles he's lived by his whole career.","cover":"https://i.imgur.com/AlpTOHT.jpg","isbn":"1409145875","pagesCount":432,"price":5.58,"creationDate":{"$date":"2018-08-24T13:05:21.059Z"},"__v":0}
-{"_id":{"$oid":"5b8002915b8f1b10d4b666ed"},"currentRating":0,"ratingPoints":0,"ratedCount":0,"ratedBy":[],"purchasesCount":0,"comments":[],"title":"Inferno (Robert Langdon #4)","author":"Dan Brown","genre":"Thriller","year":2013,"description":"Harvard professor of symbology Robert Langdon awakens in an Italian hospital, disoriented and with no recollection of the past thirty-six hours, including the origin of the macabre object hidden in his belongings. With a relentless female assassin trailing them through Florence, he and his resourceful doctor, Sienna Brooks, are forced to flee. Embarking on a harrowing journey, they must unravel a series of codes, which are the work of a brilliant scientist whose obsession with the end of the world is matched only by his passion for one of the most influential masterpieces ever written, Dante Alighieri's The Inferno.","cover":"https://i.imgur.com/DePtQrp.jpg","isbn":"1400079152","pagesCount":624,"price":8.49,"creationDate":{"$date":"2018-08-24T13:05:21.075Z"},"__v":0}
-{"_id":{"$oid":"5b8002915b8f1b10d4b666ef"},"currentRating":0,"ratingPoints":0,"ratedCount":0,"ratedBy":[],"purchasesCount":0,"comments":[],"title":"Alex Ferguson: My Biography","author":"Sir Alex Ferguson","genre":"Autobiography","year":2014,"description":"Sir Alex Ferguson's compelling story is always honest and revealing he reflects on his managerial career that embraced unprecedented European success for Aberdeen and 26 triumphant seasons with Manchester United. Sir Alex Ferguson's best-selling autobiography has now been updated to offer reflections on events at Manchester United since his retirement as well as his teachings at the Harvard Business School, a night at the Oscars and a boat tour round the Hebrides, where he passed unrecognised. The extra material adds fresh insights and detail on his final years as United's manager. Both the psychology of management and the detail of football strategy at the top level can be complex matters but no-one has explained them in a more interesting and accessible way for the general reader than Sir Alex does here.","cover":"https://i.imgur.com/JCXkMpY.jpg","isbn":"034091940X","pagesCount":416,"price":11.96,"creationDate":{"$date":"2018-08-24T13:05:21.096Z"},"__v":0}
+[
+    {
+        "_id": {
+            "$oid": "5b80028f5b8f1b10d4b666d1"
+        },
+        "currentRating": 0,
+        "ratingPoints": 0,
+        "ratedCount": 0,
+        "ratedBy": [],
+        "purchasesCount": 12,
+        "comments": [],
+        "title": "Physics of life",
+        "author": "Clas Blomberg",
+        "genre": "Physics",
+        "year": 2007,
+        "description": "Biological physics, or the physics of living systems, has emerged fully as a field of physics, alongside more traditional fields of astrophysics and cosmology, atomic, molecular and optical physics, condensed matter physics, nuclear physics, particle physics, and plasma physics. This new field brings the physicist's style of inquiry to bear on the beautiful phenomena of life. The enormous range of phenomena encountered in living systems - phenomena that often have no analog or precedent in the inanimate world - means that the intellectual agenda of biological physics is exceptionally broad, even by the ambitious standards of physics.",
+        "cover": "https://libgen.li/covers/0/aac0058748685baeb782d1a156a2ed25.jpg",
+        "isbn": "0080554644",
+        "pagesCount": 541,
+        "url":"https://cdn3.booksdl.org/get.php?md5=aac0058748685baeb782d1a156a2ed25&key=YD4EXUSLAHSEOQU5",
+        "price": 5.75,
+        "creationDate": {
+            "$date": "2018-08-24T13:05:19.016Z"
+        },
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "5b8002905b8f1b10d4b666d2"
+        },
+        "currentRating": 0,
+        "ratingPoints": 0,
+        "ratedCount": 0,
+        "ratedBy": [],
+        "purchasesCount": 13,
+        "comments": [],
+        "title": "Physics in Biology and Medicine",
+        "author": "Paul Davidovits",
+        "genre": "Physics",
+        "year": 2008,
+        "description": "Physics for Biology and Medicine, Third Edition covers topics in physics as they apply to the life sciences, specifically medicine, physiology, nursing and other applied health fields. This concise introductory paperback surveys and relates basic physics to living systems. It discusses biological systems that can be analyzed quantitatively, and how advances in the life sciences have been aided by the knowledge of physical or engineering analysis techniques. Applicable courses are biophysics and applied physics. - Provides practical techniques for applying knowledge of physics to the study of living systems - Presents material in a straight forward manner requiring very little background in physics or biology - Includes many figures, examples and illustrative problems and appendices which provide convenient access to the most important concepts of mechanics, electricity, and optics",
+        "cover": "https://library.lol/covers/0/656f49f53d8d3c5343596b2cc8b234fc-d.jpg",
+        "isbn": "9780080555935",
+        "pagesCount": 592,
+        "url":"https://download.library.lol/main/0/656f49f53d8d3c5343596b2cc8b234fc/%28Complementary%20science%20series%29%20Paul%20Davidovits%20-%20Physics%20in%20Biology%20and%20Medicine-Elsevier_Academic%20Press%20%282008%29.pdf",
+        "price": 11.04,
+        "creationDate": {
+            "$date": "2018-08-24T13:05:20.024Z"
+        },
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "5b8002905b8f1b10d4b666d3"
+        },
+        "currentRating": 0,
+        "ratingPoints": 0,
+        "ratedCount": 0,
+        "ratedBy": [],
+        "purchasesCount": 0,
+        "comments": [],
+        "title": "Physics and Chemistry Basis of Biotechnology",
+        "author": "De Cuyper M.",
+        "genre": "Physics",
+        "year": 2001,
+        "description": "The recent advances in the field of Biotechnology cannot simply be ascribed to one scientific discipline. Rather, scientists from various backgrounds, ranging from fundamental physics and chemistry to the (bio) applied sciences, have joined their efforts in order to make this new era of 'high-tech' biotechnology possible.In the present volume of 'Focus on Biotechnology', a selected group of distinguished experts describe how their field succeeded in developing the new frontiers of biotechnology. The physical or chemical underlying principles form the core of each chapter, which ends with a sketch of anticipated developments during the next decade.Audience: Any self-respecting scientist who aims to implement his work within the framework of practical applications will find 'Focus on Biotechnology - Physics and Chemistry basis Biotechnology' a must-have volume.",
+        "cover": "https://library.lol/covers/0/c892c74aeac46715475ef5334302d751.jpg",
+        "isbn": "9780306468919",
+        "pagesCount": 333,
+        "url":"https://download.library.lol/main/0/c892c74aeac46715475ef5334302d751/De%20Cuyper%20M.%2C%20Bulte%20J.W.M.%20%28eds.%29%20-%20Physics%20and%20Chemistry%20Basis%20of%20Biotechnology-Kluwer%20%282001%29.pdf",
+        "price": 9.59,
+        "creationDate": {
+            "$date": "2018-08-24T13:05:20.025Z"
+        },
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "5b8002905b8f1b10d4b666d4"
+        },
+        "currentRating": 0,
+        "ratingPoints": 0,
+        "ratedCount": 0,
+        "ratedBy": [],
+        "purchasesCount": 0,
+        "comments": [],
+        "title": "Physics for Clinical Oncology",
+        "author": "Niall MacDougall",
+        "genre": "Physics",
+        "year": 2023,
+        "description": "Radiotherapy remains a major non-surgical treatment modality for malignant disease, and an understanding of how this treatment works is essential in ensuring optimum practice. Trainees in oncology learn about ionising radiation, but to understand it fully they must also understand the physics relevant to its use in therapy.This book is written specifically for the oncology and radiation team, supporting clinical oncologists in their understanding of the science which underpins radiotherapy. It begins with basic concepts and then explores the principles and practice of physics as it relates to radiotherapy, including discussion of specific types of therapy.",
+        "cover": "https://library.lol/covers/3521000/55bcab3e7094b583d043abbfe91f813f-g.jpg",
+        "isbn": "0198862865",
+        "pagesCount": 385,
+        "url":"https://download.library.lol/main/3521000/55bcab3e7094b583d043abbfe91f813f/%28Radiotherapy%20in%20Practice%29%20Amen%20Sibtain%2C%20Andrew%20Morgan%2C%20Niall%20MacDougall%20-%20Physics%20for%20Clinical%20Oncology-Oxford%20University%20Press%20%282023%29.pdf",
+        "price": 12.09,
+        "creationDate": {
+            "$date": "2018-08-24T13:05:20.025Z"
+        },
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "5b8002905b8f1b10d4b666d5"
+        },
+        "currentRating": 0,
+        "ratingPoints": 0,
+        "ratedCount": 0,
+        "ratedBy": [],
+        "purchasesCount": 14,
+        "comments": [],
+        "title": "Nuclear and Particle Physics",
+        "author": "Wolfgang Demtröder",
+        "genre": "Physics",
+        "year": 2023,
+        "description": "This introduction to nuclear physics and particle physics provides an accessible and clear treatment of the fundamentals. Starting with the structure of nuclei and explaining instability of nuclei, this textbook enables the reader to understand all basics in nuclear physics. The text is written from the experimental physics point of view, giving numerous real-life examples and applications of nuclear forces in modern technology. This highly motivating presentation deepens the reader's knowledge in a very accessible way. The second part of the text gives a concise introduction to elementary particle physics, again together with applications and instrumentation. Nuclear fusion, fission, radionuclides in medicine and particle accelerators are amongst the many examples explained in detail. Numerous problems with solutions are perfect for self-study.",
+        "cover": "https://library.lol/covers/3624000/89cb85324840750624466422825e5f6d-g.jpg",
+        "isbn": "0765316897",
+        "pagesCount": 576,
+        "url":"https://download.library.lol/main/3624000/89cb85324840750624466422825e5f6d/%28Undergraduate%20Lecture%20Notes%20in%20Physics%29%20Wolfgang%20Demtr%C3%B6der%20-%20Nuclear%20and%20Particle%20Physics-Springer%20%282023%29.pdf",
+        "price": 8.11,
+        "creationDate": {
+            "$date": "2018-08-24T13:05:20.028Z"
+        },
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "5b8002915b8f1b10d4b666d6"
+        },
+        "currentRating": 0,
+        "ratingPoints": 0,
+        "ratedCount": 0,
+        "ratedBy": [],
+        "purchasesCount": 19,
+        "comments": [],
+        "title": "Relativistic Quantum Invariance",
+        "author": "Chueng-Ryong Ji",
+        "genre": "Physics",
+        "year": 2023,
+        "description": "Covers the basic first-hand knowledge of the relativistic quantum field theories Explains why and how the light-front dynamics is advantageous in the structure study of nucleon and nuclei Demonstrates explicit examples of the interpolation in quantum electrodynamics and other field theories",
+        "cover": "https://library.lol/covers/3648000/a97491486460cd49532e9073d529784c-g.jpg",
+        "isbn": "9789811979484",
+        "pagesCount": 1088,
+        "url":"https://download.library.lol/main/3648000/a97491486460cd49532e9073d529784c/%28Lecture%20Notes%20in%20Physics%2C%20Volume%201012%29%20Chueng-Ryong%20Ji%20-%20Relativistic%20Quantum%20Invariance-Springer%20%282023%29.pdf",
+        "price": 12.91,
+        "creationDate": {
+            "$date": "2018-08-24T13:05:21.039Z"
+        },
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "5b8002915b8f1b10d4b666d7"
+        },
+        "currentRating": 5,
+        "ratingPoints": 10,
+        "ratedCount": 2,
+        "ratedBy": [],
+        "purchasesCount": 0,
+        "comments": [],
+        "title": "Semiconductor Physics",
+        "author": "Karl W. Bo¨er",
+        "genre": "Physics",
+        "year": 2023,
+        "description": "Comprehensive presentation of all aspects of semiconductor physics Displays essential aspects of solid-state and semiconductor physics All principles of semiconductor devices and their applications",
+        "cover": "https://library.lol/covers/3651000/8c37dfac4307a9574830661b5413ad8e-g.jpg",
+        "isbn": "9783031182853",
+        "pagesCount": 237,
+        "url":"https://download.library.lol/main/3651000/8c37dfac4307a9574830661b5413ad8e/%28Springer%20Nature%20Reference%29%20Karl%20W.%20Bo%C2%A8er%2C%20Udo%20W.%20Pohl%20-%20Semiconductor%20Physics-Springer%20%282023%29.pdf",
+        "price": 10.87,
+        "creationDate": {
+            "$date": "2018-08-24T13:05:21.039Z"
+        },
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "5b8002915b8f1b10d4b666d8"
+        },
+        "currentRating": 0,
+        "ratingPoints": 0,
+        "ratedCount": 0,
+        "ratedBy": [],
+        "purchasesCount": 0,
+        "comments": [],
+        "title": "Biological physics",
+        "author": "Philip Nelson",
+        "genre": "Physics",
+        "year": 2007,
+        "description": "Biological Physics focuses on new results in molecular motors, self-assembly, and single-molecule manipulation that have revolutionized the field in recent years, and integrates these topics with classical results. The text also provides foundational material for the emerging field of nanotechnology.",
+        "cover": "https://library.lol/covers/0/421070b7866a5017f36c86889b795a62-d.jpg",
+        "isbn": "9780716798972",
+        "pagesCount": 448,
+        "url":"https://download.library.lol/main/0/421070b7866a5017f36c86889b795a62/Philip%20Nelson%20-%20Biological%20physics%20%28free%20web%20version%2C%20Dec.%202002%29-W.%20H.%20Freeman%20%282007%29.pdf",
+        "price": 12.28,
+        "creationDate": {
+            "$date": "2018-08-24T13:05:21.039Z"
+        },
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "5b8002915b8f1b10d4b666d9"
+        },
+        "currentRating": 0,
+        "ratingPoints": 0,
+        "ratedCount": 0,
+        "ratedBy": [],
+        "purchasesCount": 0,
+        "comments": [],
+        "title": "Physical chemistry of surfaces",
+        "author": "Arthur W. Adamson",
+        "genre": "Physics",
+        "year": 1997,
+        "description": "Should be on every surface chemist's reading list.",
+        "cover": "https://library.lol/covers/0/f5d731fc6ed5f095c530da0c28c040ad-d.jpg",
+        "isbn": "0471148733,",
+        "pagesCount": 770,
+        "url":"https://download.library.lol/main/0/f5d731fc6ed5f095c530da0c28c040ad/Arthur%20W.%20Adamson%2C%20Alice%20P.%20Gast%20-%20Physical%20chemistry%20of%20surfaces-Wiley%20%281997%29.djvu",
+        "price": 15.17,
+        "creationDate": {
+            "$date": "2018-08-24T13:05:21.040Z"
+        },
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "5b8002915b8f1b10d4b666da"
+        },
+        "currentRating": 4.5,
+        "ratingPoints": 9,
+        "ratedCount": 2,
+        "ratedBy": [],
+        "purchasesCount": 0,
+        "comments": [],
+        "title": "Biomechanics: principles and applications",
+        "author": "Donald R. Peterson",
+        "genre": "Physics",
+        "year": 2008,
+        "description": "Drawn from the third edition of the widely acclaimed The Biomedical Engineering Handbook, Biomechanics is a comprehensive presentation of the current principles and applications of biomechanics integrating both systems and subsystems models. Presenting substantial updates and revisions and a new chapter on current methods and strategies for modeling cellular mechanics, the book covers musculoskeletal mechanics including hard- and soft tissue and joint mechanics, biofluid mechanics and circulatory dynamics, the functioning of the ear, and the performance characteristics of the human body during exercise and exertion. The book includes more than 140 illustrations, 60 tables, and a variety of useful equations to assist in modeling biomechanical behaviors.",
+        "cover": "https://library.lol/covers/0/e3ea5b8c6063a05d32d804f7494b814e-d.jpg",
+        "isbn": "0849385342",
+        "pagesCount": 249,
+        "url":"https://download.library.lol/main/0/e3ea5b8c6063a05d32d804f7494b814e/Donald%20R.%20Peterson%2C%20Joseph%20D.%20Bronzino%20-%20Biomechanics_%20principles%20and%20applications-CRC%20Press%20%282008%29.pdf",
+        "price": 8.99,
+        "creationDate": {
+            "$date": "2018-08-24T13:05:21.040Z"
+        },
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "5b8002915b8f1b10d4b666db"
+        },
+        "currentRating": 0,
+        "ratingPoints": 0,
+        "ratedCount": 0,
+        "ratedBy": [],
+        "purchasesCount": 0,
+        "comments": [],
+        "title": "Basic Mathematics for College Students",
+        "author": "Alan S. Tussy",
+        "genre": "Mathematics",
+        "year": 2010,
+        "description": "Offering a uniquely modern, balanced approach, Tussy/Gustafson/Koenig's BASIC MATHEMATICS FOR COLLEGE STUDENTS, Fourth Edition, integrates the best of traditional drill and practice with the best elements of the reform movement. To many developmental math students, mathematics is like a foreign language. They have difficulty translating the words, their meanings, and how they apply to problem solving.",
+        "cover": "https://library.lol/covers/765000/ab66f0323cfc6dd453f27488ea556d94-d.jpg",
+        "isbn": "1439044422",
+        "pagesCount": 448,
+        "url":"https://download.library.lol/main/765000/ab66f0323cfc6dd453f27488ea556d94/Alan%20S.%20Tussy%2C%20R.%20David%20Gustafson%2C%20Diane%20Koenig%20-%20Basic%20Mathematics%20for%20College%20Students%20%20-Cengage%20Learning%20%282010%29.pdf",
+        "price": 11.18,
+        "creationDate": {
+            "$date": "2018-08-24T13:05:21.040Z"
+        },
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "5b8002915b8f1b10d4b666dc"
+        },
+        "currentRating": 0,
+        "ratingPoints": 0,
+        "ratedCount": 0,
+        "ratedBy": [],
+        "purchasesCount": 0,
+        "comments": [],
+        "title": "Discrete Mathematics: Mathematical Reasoning",
+        "author": "Douglas E. Ensley",
+        "genre": "Mathematics",
+        "year": 2006,
+        "description": "Did you know that games and puzzles have given birth to many of today's deepest mathematical subjects? Now, with Douglas Ensley and Winston Crawley's Introduction to Discrete Mathematics, you can explore mathematical writing, abstract structures, counting, discrete probability, and graph theory, through games, puzzles, patterns, magic tricks, and real-world problems. You will discover how new mathematical topics can be applied to everyday situations, learn how to work with proofs, and develop your problem-solving skills along the way.",
+        "cover": "https://library.lol/covers/2316000/103ed7d18b451f56ebe965f16265ed5b-d.jpg",
+        "isbn": "0471476021",
+        "pagesCount": 656,
+        "url":"https://download.library.lol/main/2316000/103ed7d18b451f56ebe965f16265ed5b/Douglas%20E.%20Ensley%2C%20J.%20Winston%20Crawley%20-%20Discrete%20Mathematics_%20Mathematical%20Reasoning%20and%20Proof%20with%20Puzzles%2C%20Patterns%2C%20and%20Games-Wiley%20%282006%29.pdf",
+        "price": 7.49,
+        "creationDate": {
+            "$date": "2018-08-24T13:05:21.041Z"
+        },
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "5b8002915b8f1b10d4b666dd"
+        },
+        "currentRating": 0,
+        "ratingPoints": 0,
+        "ratedCount": 0,
+        "ratedBy": [],
+        "purchasesCount": 18,
+        "comments": [],
+        "title": "A Gateway to Modern Mathematics Adventures in Iteration I",
+        "author": "Shailesh Shirali",
+        "genre": "Mathematics",
+        "year": 2019,
+        "description": "A Gateway to Modern Mathematics Adventures in Iteration I (Little Mathematical Treasures) by Shailesh Shirali Universities Press        ",
+        "cover": "https://library.lol/covers/2345000/53271fde4e75c7e1a3faf27f0b28a413-g.jpg",
+        "isbn": "9780765326355",
+        "pagesCount": 1009,
+        "url":"https://download.library.lol/main/2345000/53271fde4e75c7e1a3faf27f0b28a413/%28Modern%20Mathematics%20%20Adventures%20in%20Iteration%29%20Shailesh%20Shirali%20-%20A%20Gateway%20to%20Modern%20Mathematics%20%20Adventures%20in%20Iteration%20I%20%28Little%20Mathematical%20Treasures%29%20by%20Shailesh%20Shirali%20Universities%20Press-Unive.pdf",
+        "price": 11.76,
+        "creationDate": {
+            "$date": "2018-08-24T13:05:21.041Z"
+        },
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "5b8002915b8f1b10d4b666de"
+        },
+        "currentRating": 0,
+        "ratingPoints": 0,
+        "ratedCount": 0,
+        "ratedBy": [],
+        "purchasesCount": 0,
+        "comments": [],
+        "title": "Higher Mathematics for Physics and Engineering",
+        "author": "Tsuneyoshi Nakayama",
+        "genre": "Mathematics",
+        "year": 2010,
+        "description": "Due to the rapid expansion of the frontiers of physics and engineering, the demand for higher-level mathematics is increasing yearly. This book is designed to provide accessible knowledge of higher-level mathematics demanded in contemporary physics and engineering. Rigorous",
+        "cover": "https://library.lol/covers/275000/1A4F388E32AF10B01107ABFA07EB01FA-d.jpg",
+        "isbn": "3540878637",
+        "pagesCount": 1216,
+        "url":"https://download.library.lol/main/275000/1a4f388e32af10b01107abfa07eb01fa/Tsuneyoshi%20Nakayama%2C%20Hiroyuki%20Shima%20%28auth.%29%20-%20Higher%20Mathematics%20for%20Physics%20and%20Engineering_%20Mathematical%20Methods%20for%20Contemporary%20Physics-Springer-Verlag%20Berlin%20Heidelberg%20%282010%29.pdf",
+        "price": 13.99,
+        "creationDate": {
+            "$date": "2018-08-24T13:05:21.041Z"
+        },
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "5b8002915b8f1b10d4b666df"
+        },
+        "currentRating": 0,
+        "ratingPoints": 0,
+        "ratedCount": 0,
+        "ratedBy": [],
+        "purchasesCount": 0,
+        "comments": [],
+        "title": "Complete Advanced Level Mathematics: Pure Mathematics",
+        "author": "Andy Martin",
+        "genre": "Mathematics",
+        "year": 1999,
+        "description": "This title provides numerous exercises, worked examples and clear explanations with questions and diagrams. Colour is used to highlight key mathematical elements and enhance learning. Margin notes provide extra support for key topics and formulas (a key formulas page is also included). Review and Technique exercises; Contextual questions; Consolidation 'A' and 'B' exercises and Applications and Activities provide a complete range of challenges and exam practice for complete success. Chapter overviews and summaries consolidate understanding.",
+        "cover": "https://library.lol/covers/1517000/d33af1a5aa3c223ad2cf02e6d240be39-d.jpg",
+        "isbn": "0748735585",
+        "pagesCount": 368,
+        "url":"https://download.library.lol/main/1517000/d33af1a5aa3c223ad2cf02e6d240be39/%28Complete%20Advanced%20Level%20Mathematics%29%20Andy%20Martin%2C%20Kevin%20Brown%2C%20Paul%20Rigby%2C%20Simon%20Riley%20-%20Complete%20Advanced%20Level%20Mathematics_%20Pure%20Mathematics-Stanley%20Thornes%20%28Publishers%29%20Ltd%20%281999%29.pdf",
+        "price": 16,
+        "creationDate": {
+            "$date": "2018-08-24T13:05:21.042Z"
+        },
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "5b8002915b8f1b10d4b666e0"
+        },
+        "currentRating": 0,
+        "ratingPoints": 0,
+        "ratedCount": 0,
+        "ratedBy": [],
+        "purchasesCount": 0,
+        "comments": [],
+        "title": "Fundamentals of Differential Geometry",
+        "author": "Serge Lang",
+        "genre": "Mathematics",
+        "year": 1999,
+        "description": "The present book aims to give a fairly comprehensive account of the fundamentals of differential manifolds and differential geometry. The size of the book influenced where to stop, and there would be enough material for a second volume (this is not a threat). At the most basic level, the book gives an introduction to the basic concepts which are used in differential topology, differential geometry, and differential equations.",
+        "cover": "https://library.lol/covers/56000/324fc33a8b039776aea82143a445faf9-d.jpg",
+        "isbn": "9780387985930",
+        "pagesCount": 480,
+        "url":"https://download.library.lol/main/56000/324fc33a8b039776aea82143a445faf9/%28Graduate%20Texts%20in%20Mathematics%20191%29%20Serge%20Lang%20%28auth.%29%20-%20Fundamentals%20of%20Differential%20Geometry-Springer-Verlag%20New%20York%20%281999%29.pdf",
+        "price": 5.75,
+        "creationDate": {
+            "$date": "2018-08-24T13:05:21.042Z"
+        },
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "5b8002915b8f1b10d4b666e1"
+        },
+        "currentRating": 0,
+        "ratingPoints": 0,
+        "ratedCount": 0,
+        "ratedBy": [],
+        "purchasesCount": 0,
+        "comments": [],
+        "title": "Sets, Functions, and Logic: An Introduction to Abstract Mathematics",
+        "author": "Keith Devlin",
+        "genre": "Mathematics",
+        "year": 2003,
+        "description": "Keith Devlin. You know him. You've read his columns in MAA Online, you've heard him on the radio, and you've seen his popular mathematics books. In between all those activities and his own research, he's been hard at work revising Sets, Functions and Logic, his standard-setting text that has smoothed the road to pure mathematics for legions of undergraduate students.",
+        "cover": "https://library.lol/covers/671000/22fc635d825e72b3ed8a687fc873d4f4-d.jpg",
+        "isbn": "9781584884491",
+        "pagesCount": 460,
+        "url":"https://download.library.lol/main/671000/22fc635d825e72b3ed8a687fc873d4f4/Keith%20Devlin%20-%20Sets%2C%20Functions%2C%20and%20Logic_%20An%20Introduction%20to%20Abstract%20Mathematics%2C%20Third%20Edition%20%28Chapman%20Hall%20CRC%20Mathematics%20Series%29-Chapman%20and%20Hall_CRC%20%282003%29.pdf",
+        "price": 16.35,
+        "creationDate": {
+            "$date": "2018-08-24T13:05:21.042Z"
+        },
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "5b8002915b8f1b10d4b666e2"
+        },
+        "currentRating": 0,
+        "ratingPoints": 0,
+        "ratedCount": 0,
+        "ratedBy": [],
+        "purchasesCount": 20,
+        "comments": [],
+        "title": "Basic Engineering Mathematics",
+        "author": "John Bird BSc",
+        "genre": "Mathematics",
+        "year": 2005,
+        "description": "Unlike most engineering maths texts, this book does not assume a firm grasp of GCSE maths, and unlike low-level general maths texts, the content is tailored specifically for the needs of engineers. The result is a unique book written for engineering students, which takes a starting point below GCSE level. ",
+        "cover": "https://library.lol/covers/79000/b1b4c6dd16fc391a6025bdc650044827-d.jpg",
+        "isbn": "9781423724117",
+        "pagesCount": 1220,
+        "url":"https://download.library.lol/main/79000/b1b4c6dd16fc391a6025bdc650044827/John%20Bird%20BSc%20%28Hons%29%20%20CEng%20%20CMath%20%20CSci%20%20FIET%20%20MIEE%20%20FIIE%20%20FIMA%20%20FCollT%20-%20Basic%20Engineering%20Mathematics-Newnes%20%282005%29.pdf",
+        "price": 20.18,
+        "creationDate": {
+            "$date": "2018-08-24T13:05:21.043Z"
+        },
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "5b8002915b8f1b10d4b666e3"
+        },
+        "currentRating": 0,
+        "ratingPoints": 0,
+        "ratedCount": 0,
+        "ratedBy": [],
+        "purchasesCount": 0,
+        "comments": [],
+        "title": "Higher Engineering Mathematics    ",
+        "author": "John Bird",
+        "genre": "Mathematics",
+        "year": 2007,
+        "description": "John Bird's approach, based on numerous worked examples and interactive problems, is ideal for students from a wide range of academic backgrounds, and can be worked through at the student's own pace. Basic mathematical theories are explained in the simplest of terms, supported by practical engineering examples and applications from a wide variety of engineering disciplines, to ensure the reader can relate the theory to actual engineering practice. This extensive and thorough topic coverage makes this an ideal text for a range of university degree modules, Foundation Degrees, and HNC/D units.",
+        "cover": "https://library.lol/covers/79000/a2582060aad02b4209f1f7a51b9b83f5-d.jpg",
+        "isbn": "0750681527",
+        "pagesCount": 947,
+        "url":"https://download.library.lol/main/79000/a2582060aad02b4209f1f7a51b9b83f5/John%20Bird%20-%20Higher%20Engineering%20Mathematics-Newnes%20%282007%29.pdf",
+        "price": 14.7,
+        "creationDate": {
+            "$date": "2018-08-24T13:05:21.043Z"
+        },
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "5b8002915b8f1b10d4b666e4"
+        },
+        "currentRating": 0,
+        "ratingPoints": 0,
+        "ratedCount": 0,
+        "ratedBy": [],
+        "purchasesCount": 0,
+        "comments": [],
+        "title": "The Mathematical Sciences in 2025",
+        "author": "Committee on the Mathematical Sciences in 2025",
+        "genre": "Mathematics",
+        "year": 2013,
+        "description": "The mathematical sciences are part of nearly all aspects of everyday life--the discipline has underpinned such beneficial modern capabilities as Internet search, medical imaging, computer animation, numerical weather predictions, and all types of digital communications. The Mathematical Sciences in 2025 examines the current state of the mathematical sciences and explores the changes needed for the discipline to be in a strong position and able to maximize its contribution to the nation in 2025. ",
+        "cover": "https://cdn.asaha.com/assets/thumbs/5c0/5c0ac5bbc891adf635171f87a083cd47.jpg",
+        "isbn": "9780309284578",
+        "pagesCount": 384,
+        "url":"https://download.library.lol/main/887000/bb0f917e3b6ac44b0efa1cca2804e547/Committee%20on%20the%20Mathematical%20Sciences%20in%202025%2C%20Board%20on%20Mathematical%20Sciences%20and%20Their%20Applications%2C%20Division%20on%20Engineering%20and%20Physical%20Sciences%2C%20National%20Research%20Council%20-%20The%20Mathematical%20Scien.pdf",
+        "price": 11.94,
+        "creationDate": {
+            "$date": "2018-08-24T13:05:21.043Z"
+        },
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "5b8002915b8f1b10d4b666e5"
+        },
+        "currentRating": 0,
+        "ratingPoints": 0,
+        "ratedCount": 0,
+        "ratedBy": [],
+        "purchasesCount": 0,
+        "comments": [],
+        "title": "Agile Software Development: Best Practices for Large Software Development Projects",
+        "author": "Thomas Stober",
+        "genre": "Compute science",
+        "year": 2010,
+        "description": "Software Development is moving towards a more agile and more flexible approach. It turns out that the traditional 'waterfall' model is not supportive in an environment where technical, financial and strategic constraints are changing almost every day. ",
+        "cover": "https://library.lol/covers/275000/79686cfc7b25ac04bb499e3b7df5d428-d.jpg",
+        "isbn": "9783540708308",
+        "pagesCount": 416,
+        "url":"https://download.library.lol/main/275000/79686cfc7b25ac04bb499e3b7df5d428/Thomas%20Stober%2C%20Uwe%20Hansmann%20%28auth.%29%20-%20Agile%20Software%20Development_%20Best%20Practices%20for%20Large%20Software%20Development%20Projects-Springer-Verlag%20Berlin%20Heidelberg%20%282010%29.pdf",
+        "price": 12.79,
+        "creationDate": {
+            "$date": "2018-08-24T13:05:21.044Z"
+        },
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "5b8002915b8f1b10d4b666e6"
+        },
+        "currentRating": 0,
+        "ratingPoints": 0,
+        "ratedCount": 0,
+        "ratedBy": [],
+        "purchasesCount": 0,
+        "comments": [],
+        "title": "Python Data Analytics: Data Analysis and Science Using Pandas, matplotlib, and the Python Programming Language",
+        "author": "Fabio Nelli",
+        "genre": "Compute science",
+        "year": 2015,
+        "description": "Python Data Analytics will help you tackle the world of data acquisition and analysis using the power of the Python language. At the heart of this book lies the coverage of pandas, an open source, BSD-licensed library providing high-performance, easy-to-use data structures and data analysis tools for the Python programming language.",
+        "cover": "https://library.lol/covers/1406000/e9b3f0ac6df37a2b5c7eb8b1c7836771-d.jpg",
+        "isbn": "9781484209585",
+        "pagesCount": 320,
+        "url":"https://download.library.lol/main/1406000/e9b3f0ac6df37a2b5c7eb8b1c7836771/Fabio%20Nelli%20%28auth.%29%20-%20Python%20Data%20Analytics_%20Data%20Analysis%20and%20Science%20Using%20Pandas%2C%20matplotlib%2C%20and%20the%20Python%20Programming%20Language-Apress%20%282015%29.pdf",
+        "price": 12.59,
+        "creationDate": {
+            "$date": "2018-08-24T13:05:21.044Z"
+        },
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "5b8002915b8f1b10d4b666e7"
+        },
+        "currentRating": 0,
+        "ratingPoints": 0,
+        "ratedCount": 0,
+        "ratedBy": [],
+        "purchasesCount": 0,
+        "comments": [],
+        "title": "Functional Programming in Java: How functional techniques improve your Java programs        ",
+        "author": "Pierre Saumont",
+        "genre": "Compute science",
+        "year": 2017,
+        "description": "Functional Programming in Java teaches Java developers how to incorporate the most powerful benefits of functional programming into new and existing Java code. You'll learn to think functionally about coding tasks in Java and use FP to make your applications easier to understand, optimize, maintain, and scale.",
+        "cover": "https://library.lol/covers/2143000/ee8f3550cb34120c359781a40ca3d4ab-d.jpg",
+        "isbn": "9781617292736",
+        "pagesCount": 819,
+        "url":"https://download.library.lol/main/2143000/ee8f3550cb34120c359781a40ca3d4ab/Pierre-Yves%20Saumont%20-%20Functional%20Programming%20in%20Java_%20How%20functional%20techniques%20improve%20your%20Java%20programs-Manning%20Publications%20%282017%29.pdf",
+        "price": 10.49,
+        "creationDate": {
+            "$date": "2018-08-24T13:05:21.044Z"
+        },
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "5b8002915b8f1b10d4b666e8"
+        },
+        "currentRating": 0,
+        "ratingPoints": 0,
+        "ratedCount": 0,
+        "ratedBy": [],
+        "purchasesCount": 0,
+        "comments": [],
+        "title": "Java: Java Programming For Beginners - A Simple Start to Java Programming",
+        "author": "Sanderson S.J.",
+        "genre": "Compute science",
+        "year": 2016,
+        "description": "This Java Programming guide will make it as simple as possible for you to learn the Java language. By the end of this book, I promise you will feel highly confident and comfortable with Java.        ",
+        "cover": "https://library.lol/covers/1729000/870b9b3fe701f2691dc900d98f855276-d.jpg",
+        "isbn": "9780007456376",
+        "pagesCount": 1201,
+        "url":"https://download.library.lol/main/1729000/870b9b3fe701f2691dc900d98f855276/Sanderson%20S.J.%20-%20Java_%20Java%20Programming%20For%20Beginners%20-%20A%20Simple%20Start%20to%20Java%20Programming.pdf",
+
+        "price": 13.94,
+        "creationDate": {
+            "$date": "2018-08-24T13:05:21.045Z"
+        },
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "5b8002915b8f1b10d4b666e9"
+        },
+        "currentRating": 0,
+        "ratingPoints": 0,
+        "ratedCount": 0,
+        "ratedBy": [],
+        "purchasesCount": 0,
+        "comments": [],
+        "title": "Software Development for Engineers. with C, Pascal, C++, Assembly Language, Visual Basic, HTML, JavaScript and Java        ",
+        "author": "William J. Buchanan",
+        "genre": "Compute science",
+        "year": 1997,
+        "description": "Specialisation in software has become a thing of the past. With the move towards graphical user interface programming, engineers must have a sound knowledge of several programming languages and for the first time most of the main technical languages are introduced in a single volume.All the example programs included relate to real life applications to provide a long needed reference that students will find invaluable throughout their studies, and a definitive guide for professional developers requiring an insight into other languages",
+        "cover": "https://library.lol/covers/1016000/85e77f3aa2cb326be061f4a33da31122-d.gif",
+        "isbn": "1501192248",
+        "pagesCount": 400,
+        "url":"https://download.library.lol/main/1016000/85e77f3aa2cb326be061f4a33da31122/BSc%2C%20CEng%2C%20PhD%20William%20J.%20Buchanan%20%28Auth.%29%20-%20Software%20Development%20for%20Engineers.%20with%20C%2C%20Pascal%2C%20C%2B%2B%2C%20Assembly%20Language%2C%20Visual%20Basic%2C%20HTML%2C%20JavaScript%20and%20Java-Elsevier%20Science%20%281997%29.pdf",
+        "price": 17,
+        "creationDate": {
+            "$date": "2018-08-24T13:05:21.045Z"
+        },
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "5b8002915b8f1b10d4b666ea"
+        },
+        "currentRating": 4,
+        "ratingPoints": 4,
+        "ratedCount": 1,
+        "ratedBy": [],
+        "purchasesCount": 0,
+        "comments": [],
+        "title": "JavaScript and JQuery: Interactive Front-End Web Development  ",
+        "author": "Jon Duckett",
+        "genre": "Compute science",
+        "year": 2014,
+        "description": "While in Paris, Harvard symbologist Robert Langdon is awakened by a phone call in the dead of the night. The elderly curator of the Louvre has been murdered inside the museum, his body covered in baffling symbols. As Langdon and gifted French cryptologist Sophie Neveu sort through the bizarre riddles, they are stunned to discover a trail of clues hidden in the works of Leonardo da Vinci—clues visible for all to see and yet ingeniously disguised by the painter.",
+        "cover": "https://library.lol/covers/1301000/26c303a8f1e8881a7a6bd59d57a76aef-d.jpg",
+        "isbn": "9781118531648",
+        "pagesCount": 597,
+        "url":"https://download.library.lol/main/1301000/26c303a8f1e8881a7a6bd59d57a76aef/Jon%20Duckett%20-%20JavaScript%20and%20JQuery_%20Interactive%20Front-End%20Web%20Development-Wiley%20%282014%29.pdf",
+        "price": 7.99,
+        "creationDate": {
+            "$date": "2018-08-24T13:05:21.045Z"
+        },
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "5b8002915b8f1b10d4b666eb"
+        },
+        "currentRating": 0,
+        "ratingPoints": 0,
+        "ratedCount": 0,
+        "ratedBy": [],
+        "purchasesCount": 0,
+        "comments": [],
+        "title": "JavaScript: JavaScript For Beginners - Learn JavaScript Programming with ease",
+        "author": "Stephen Blumenthal",
+        "genre": "Compute science",
+        "year": 2016,
+        "description": "Java ScriptLearn all about one of the most widely used programming languages and get this great book now!",
+        "cover": "https://library.lol/covers/2187000/47173801a61a856470e6dcb5b91ad897-g.jpg",
+        "isbn": "1539930726",
+        "pagesCount": 502,
+        "url":"https://download.library.lol/main/2187000/47173801a61a856470e6dcb5b91ad897/Stephen%20Blumenthal%20-%20JavaScript_%20JavaScript%20For%20Beginners%20-%20Learn%20JavaScript%20Programming%20with%20ease%20in%20HALF%20THE%20TIME%20-%20Everything%20about%20the%20Language%2C%20Coding%2C%20Programming%20and%20Web%20Pages%20You%20need%20to%20know.pdf",
+        "price": 17.99,
+        "creationDate": {
+            "$date": "2018-08-24T13:05:21.046Z"
+        },
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "5b8002915b8f1b10d4b666ec"
+        },
+        "currentRating": 0,
+        "ratingPoints": 0,
+        "ratedCount": 0,
+        "ratedBy": [],
+        "purchasesCount": 0,
+        "comments": [],
+        "title": "Simplifying JavaScript: Writing Modern JavaScript with ES5, ES6, and Beyond ",
+        "author": "Joe Morgan",
+        "genre": "Compute science",
+        "year": 2018,
+        "description": "The best modern JavaScript is simple, readable, and predictable. Learn to write modern JavaScript not by memorizing a list of new syntax, but with practical examples of how syntax changes can make code more expressive. Starting from variable declarations that communicate intention clearly, see how modern principles can improve all parts of code. Incorporate ideas with curried functions, array methods, classes, and more to create code that does more with less while yielding fewer bugs.        ",
+        "cover": "https://library.lol/covers/2234000/1dd0214fdc2e0ffd4258cf668d4fd865-d.jpg",
+        "isbn": "9781680502886",
+        "pagesCount": 432,
+        "url":"https://download.library.lol/main/2234000/1dd0214fdc2e0ffd4258cf668d4fd865/Joe%20Morgan%20-%20Simplifying%20JavaScript_%20Writing%20Modern%20JavaScript%20with%20ES5%2C%20ES6%2C%20and%20Beyond-Pragmatic%20Bookshelf%20%282018%29.pdf",
+        "price": 5.58,
+        "creationDate": {
+            "$date": "2018-08-24T13:05:21.059Z"
+        },
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "5b8002915b8f1b10d4b666ed"
+        },
+        "currentRating": 0,
+        "ratingPoints": 0,
+        "ratedCount": 0,
+        "ratedBy": [],
+        "purchasesCount": 0,
+        "comments": [],
+        "title": "PHP, MySQL, JavaScript & HTML5 All-in-One For Dummies  ",
+        "author": "Steve Suehring",
+        "genre": "Compute science",
+        "year": 2013,
+        "description": "PHP, javascript, and HTML5 are essential programming languages for creating dynamic websites that work with the MySQL database. PHP and MySQL provide a robust, easy-to-learn, open-source solution for creating superb e-commerce sites and content management. javascript and HTML5 add support for the most current multimedia effects. This one-stop guide gives you what you need to know about all four! Seven self-contained mini books cover web technologies, HTML5 and CSS3, PHP programming, MySQL databases, javascript, PHP with templates, and web applications.        ",
+        "cover": "https://library.lol/covers/917000/dfb56912fa145b6a8fd41090f769682e-d.jpg",
+        "isbn": "9781118213704",
+        "pagesCount": 624,
+        "url":"https://download.library.lol/main/917000/dfb56912fa145b6a8fd41090f769682e/%28For%20Dummies%20%28Computer_Tech%29%29%20Steve%20Suehring%2C%20Janet%20Valade%20-%20PHP%2C%20MySQL%2C%20JavaScript%20%26%20HTML5%20All-in-One%20For%20Dummies-Wiley%20%282013%29.pdf",
+        "price": 8.49,
+        "creationDate": {
+            "$date": "2018-08-24T13:05:21.075Z"
+        },
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "5b8002915b8f1b10d4b666ef"
+        },
+        "currentRating": 0,
+        "ratingPoints": 0,
+        "ratedCount": 0,
+        "ratedBy": [],
+        "purchasesCount": 0,
+        "comments": [],
+        "title": "Software Development, Design and Coding: With Patterns, Debugging, Unit Testing, and Refactoring ",
+        "author": "John F. Dooley",
+        "genre": "Compute science",
+        "year": 2017,
+        "description": "Learn the principles of good software design, and how to turn those principles into great code. This book introduces you to software engineering ― from the application of engineering principles to the development of software. You'll see how to run a software development project, examine the different phases of a project, and learn how to design and implement programs that solve specific problems. It's also about code construction ― how to write great programs and make them work.",
+        "cover": "https://library.lol/covers/2178000/f4ee8237263830f36c5a5ec047eed536-g.jpg",
+        "isbn": "148423152X",
+        "pagesCount": 416,
+        "url":"https://download.library.lol/main/2178000/f4ee8237263830f36c5a5ec047eed536/John%20F.%20Dooley%20-%20Software%20Development%2C%20Design%20and%20Coding_%20With%20Patterns%2C%20Debugging%2C%20Unit%20Testing%2C%20and%20Refactoring-Apress%20%282017%29.pdf",
+        "price": 11.96,
+        "creationDate": {
+            "$date": "2018-08-24T13:05:21.096Z"
+        },
+        "__v": 0
+    }
+]
