@@ -62,7 +62,7 @@ export class NavigationComponent implements OnInit, OnDestroy {
       });
   }
 // Add a new property to hold the genres
-genres: string[] = ['Fantasy', 'Classics', 'Science Fiction', 'Thriller', 'Mystery', 'Romance']; // Add all genres here
+genres: string[] = ['Mathematics', 'Physics', 'Compute science']; // Add all genres here
 
 // Add a new method to handle genre selection
 onSelectGenre(genre: string): void {
