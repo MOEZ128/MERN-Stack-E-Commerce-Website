@@ -62,6 +62,10 @@ export class BookEditComponent implements OnInit {
         Validators.required,
         isUrlValidator
       ]),
+      'url': new FormControl('', [
+        Validators.required,
+        isUrlValidator
+      ]),
       'isbn': new FormControl('', [
         Validators.required,
         isIsbnValidator
@@ -108,7 +112,9 @@ export class BookEditComponent implements OnInit {
   get cover(): AbstractControl {
     return this.editBookForm.get('cover');
   }
-
+  get url(): AbstractControl {
+    return this.editBookForm.get('url');
+  }
   get isbn(): AbstractControl {
     return this.editBookForm.get('isbn');
   }

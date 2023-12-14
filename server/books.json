@@ -443,7 +443,7 @@
         "isbn": "9781423724117",
         "pagesCount": 1220,
         "url":"https://download.library.lol/main/79000/b1b4c6dd16fc391a6025bdc650044827/John%20Bird%20BSc%20%28Hons%29%20%20CEng%20%20CMath%20%20CSci%20%20FIET%20%20MIEE%20%20FIIE%20%20FIMA%20%20FCollT%20-%20Basic%20Engineering%20Mathematics-Newnes%20%282005%29.pdf",
-        "price": 20.18,
+        "price": 0,
         "creationDate": {
             "$date": "2018-08-24T13:05:21.043Z"
         },
