@@ -1,7 +1,8 @@
 <div class="book-card">
-  <img src="{{book.cover}}" alt="book-cover">
-  <h5>{{book.title}}</h5>
-  <h6>{{book.author}}</h6>
-  <p>{{book.price}} &#36;</p>
-  <a class="btn btn-primary" routerLink="/book/details/{{book._id}}">View Details</a>
+  <div class="book-card-img"><img src="{{book.cover}}" alt="book-cover"></div>
+ <div class="book-car-title"> <h5>{{book.title}}</h5></div>
+  <div class="book-card-author"><h6>{{book.author}}</h6></div>
+ <div class="book-card-price"> <p>{{book.price}} &#36;</p></div>
+  
+ <div class="book-card-btn"> <a class="btn btn-primary" routerLink="/book/details/{{book._id}}">View Details</a></div>
 </div>

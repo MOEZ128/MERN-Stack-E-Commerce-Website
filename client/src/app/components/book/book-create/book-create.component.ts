@@ -49,6 +49,10 @@ export class BookCreateComponent implements OnInit {
         Validators.required,
         isUrlValidator
       ]),
+      'url': new FormControl('', [
+        Validators.required,
+        isUrlValidator  // You can use the isUrlValidator you already have for the 'cover' field
+      ]),
       'isbn': new FormControl('', [
         Validators.required,
         isIsbnValidator
@@ -96,6 +100,9 @@ export class BookCreateComponent implements OnInit {
     return this.createBookForm.get('cover');
   }
 
+  get url(): AbstractControl {
+    return this.createBookForm.get('url');
+  }
   get isbn(): AbstractControl {
     return this.createBookForm.get('isbn');
   }
