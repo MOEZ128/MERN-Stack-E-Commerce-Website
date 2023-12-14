@@ -27,7 +27,10 @@ function validateBookForm(payload) {
         isFormValid = false;
         errors.year = 'Please provide book release year.';
     }
-
+    if (!payload || !payload.url || !VALIDATOR.isURL(payload.url)) {
+        isFormValid = false;
+        errors.url = 'Please provide a valid URL.';
+      }
     if (!payload || typeof payload.description !== 'string' || payload.description.trim().length < 10) {
         isFormValid = false;
         errors.description = 'Description must be at least 10 symbols long.';
@@ -136,15 +139,15 @@ module.exports = {
 
         BOOK.create(book).then((newBook) => {
             return res.status(200).json({
-                message: 'Book created successfully!',
-                data: newBook
+              message: 'Book created successfully!',
+              data: newBook
             });
-        }).catch((err) => {
+          }).catch((err) => {
             console.log(err);
             return res.status(400).json({
-                message: 'Something went wrong, please try again.'
+              message: 'Something went wrong, please try again.'
             });
-        });
+          });
     },
 
     edit: (req, res) => {
@@ -173,6 +176,7 @@ module.exports = {
             book.year = editedBook.year;
             book.description = editedBook.description;
             book.cover = editedBook.cover;
+            book.url = editedBook.url;
             book.isbn = editedBook.isbn;
             book.pagesCount = editedBook.pagesCount;
             book.price = editedBook.price;
