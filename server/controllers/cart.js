@@ -103,9 +103,8 @@ module.exports = {
         let userId = req.user.id;
         let totalPrice = 0;
         let products = [];
-
-        CART
-            .findOne({ user: userId })
+    
+        CART.findOne({ user: userId })
             .populate('books')
             .then((cart) => {
                 for (let book of cart.books) {
@@ -116,30 +115,76 @@ module.exports = {
                         author: book.author,
                         cover: book.cover,
                         price: book.price,
-                        qty: req.body[book._id.toString()]
+                        qty: req.body[book._id.toString()],
+                        url: book.url // Include the 'url' property
+
                     });
                 }
-
-                RECEIPT.create({
-                    user: userId,
-                    productsInfo: products,
-                    totalPrice: totalPrice
-                }).then((receipt) => {
-                    USER.update({ _id: userId }, { $push: { receipts: receipt._id } }).then(() => {
-                        cart.books = [];
-                        cart.totalPrice = 0;
-                        cart.save();
-                        return res.status(200).json({
-                            message: 'Thank you for your order! Books will be sent to you as soon as possible!',
-                            data: receipt
+    
+                // Update user wallet
+                USER.findOneAndUpdate(
+                    { _id: userId, wallet: { $gte: totalPrice } },
+                    { $inc: { wallet: -totalPrice } },
+                    { new: true, runValidators: true }
+                )
+                    .then((user) => {
+                        if (!user) {
+                            return res.status(400).json({
+                                message: 'You don\'t have enough money'
+                            });
+                        }
+    
+                        // Wallet updated successfully, proceed with creating receipt
+                        RECEIPT.create({
+                            user: userId,
+                            productsInfo: products,
+                            totalPrice: totalPrice
+                        })
+                            .then((receipt) => {
+                                // Update user with the receipt ID
+                                USER.updateOne(
+                                    { _id: userId },
+                                    { $push: { receipts: receipt._id } }
+                                )
+                                    .then(() => {
+                                        // Clear the cart
+                                        cart.books = [];
+                                        cart.totalPrice = 0;
+                                        cart.save();
+    
+                                        return res.status(200).json({
+                                            message: 'Thank you for your order! Books will be sent to you as soon as possible!',
+                                            data: receipt
+                                        });
+                                    })
+                                    .catch((err) => {
+                                        console.log(err);
+                                        return res.status(400).json({
+                                            message: 'Something went wrong while updating user with receipt ID.'
+                                        });
+                                    });
+                            })
+                            .catch((err) => {
+                                console.log(err);
+                                return res.status(400).json({
+                                    message: 'Something went wrong while creating the receipt.'
+                                });
+                            });
+                    })
+                    .catch((err) => {
+                        console.log(err);
+                        return res.status(400).json({
+                            message: 'Something went wrong while updating the user wallet.'
                         });
                     });
-                }).catch((err) => {
-                    console.log(err);
-                    return res.status(400).json({
-                        message: 'Something went wrong, please try again.'
-                    });
+            })
+            .catch((err) => {
+                console.log(err);
+                return res.status(400).json({
+                    message: 'Something went wrong while fetching the cart.'
                 });
             });
     }
-};
+    
+    }
+ 

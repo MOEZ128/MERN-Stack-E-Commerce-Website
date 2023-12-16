@@ -12,7 +12,7 @@ const BOOK_SCHEMA = MONGOOSE.Schema({
     year: { type: NUMBER, required: true },
     description: { type: STRING, required: true },
     cover: { type: STRING, required: true },
-    'url': { type: STRING, required: true },
+    url: { type: STRING, required: true },
     isbn: { type: STRING, required: true },
     pagesCount: { type: NUMBER, required: true },
     price: { type: NUMBER, required: true },

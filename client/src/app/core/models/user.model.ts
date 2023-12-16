@@ -10,6 +10,8 @@ export class User {
     public _id: string,
     public id: string,
     public commentsCount: number,
+    public wallet: number, // Add this line for the wallet property
+
     public cart: Cart,
     public favoriteBooks: Book[],
     public receipts: Receipt[]

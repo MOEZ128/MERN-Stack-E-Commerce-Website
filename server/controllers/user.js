@@ -149,6 +149,8 @@ module.exports = {
                     avatar: user.avatar,
                     commentsCount: user.commentsCount,
                     favoriteBooks: user.favoriteBooks,
+                    wallet: user.wallet, // Include the wallet property
+
                 };
 
                 return res.status(200).json({

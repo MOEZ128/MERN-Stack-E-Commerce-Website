@@ -53,6 +53,10 @@ export class ProfileComponent implements OnInit, OnDestroy {
         .getProfile(username)
         .subscribe((res) => {
           this.user = res.data;
+          console.log('User Data:', this.user); // Log the user data
+          console.log('Comments Count:', this.user.commentsCount); // Log commentsCount
+          console.log('wallet:', this.user.wallet); // Log commentsCount
+
           this.getComments();
         });
     });
