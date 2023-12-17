@@ -38,7 +38,7 @@ export class UserService {
 
   getProfile(username: string): Observable<ServerResponse<User>> {
     return this.http.get<ServerResponse<User>>(profileEndpoint + username);
-  }
+ }
 
   getPurchaseHistory(): Observable<ServerResponse<Receipt[]>> {
     return this.http.get<ServerResponse<Receipt[]>>(getPurchaseHistoryEndpoint);

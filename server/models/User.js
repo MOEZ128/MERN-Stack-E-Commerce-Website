@@ -12,6 +12,7 @@ const USER_SCHEMA = MONGOOSE.Schema({
     avatar: { type: STRING, default: 'https://i.imgur.com/4s5qLzU.png' },
     password: { type: STRING, required: true },
     wallet: { type: NUMBER, default: 1000 }, // default value is 1000
+    points: { type: NUMBER, default: 0 }, // default value is 0
     salt: { type: STRING, required: true },
     isAdmin: { type: BOOLEAN, default: false },
     isCommentsBlocked: { type: BOOLEAN, default: false },

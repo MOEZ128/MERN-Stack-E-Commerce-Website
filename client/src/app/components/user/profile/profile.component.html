@@ -26,6 +26,12 @@
               {{user.commentsCount}}
             </p>
           </div>
+          <div class="col-md-6">
+            <h6>Points</h6>
+            <p>
+              {{user.points}}
+            </p>
+           </div>
           <div class="col-md-12">
             <h5 class="mt-2"><span class="fa fa-clock-o ion-clock float-right"></span>Latest comments by {{user.username}}</h5>
             <table class="table table-sm table-hover table-striped" *ngIf="comments && comments.length > 0">

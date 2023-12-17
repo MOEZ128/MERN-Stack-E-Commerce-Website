@@ -11,6 +11,7 @@ export class User {
     public id: string,
     public commentsCount: number,
     public wallet: number, // Add this line for the wallet property
+    public points: number, // Add this line for the points property
 
     public cart: Cart,
     public favoriteBooks: Book[],

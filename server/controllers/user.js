@@ -150,6 +150,7 @@ module.exports = {
                     commentsCount: user.commentsCount,
                     favoriteBooks: user.favoriteBooks,
                     wallet: user.wallet, // Include the wallet property
+                    points: user.points, // Include the point property
 
                 };
 

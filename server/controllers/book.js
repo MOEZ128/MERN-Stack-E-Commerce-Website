@@ -127,29 +127,37 @@ module.exports = {
 
     add: (req, res) => {
         let book = req.body;
+        let userId = req.user.id;
 
         let validationResult = validateBookForm(book);
-
+     
         if (!validationResult.success) {
             return res.status(400).json({
                 message: 'Book form validation failed!',
                 errors: validationResult.errors
             });
         }
-
+     
         BOOK.create(book).then((newBook) => {
-            return res.status(200).json({
-              message: 'Book created successfully!',
-              data: newBook
+
+            USER.findByIdAndUpdate(userId, { $inc: { points: 1 } }, { new: true })
+            .then((user) => {
+              return res.status(200).json({
+                message: 'Book created successfully and point added!',
+                data: newBook
+              });
+            }).catch((err) => {
+              console.log('Error updating user:', err);
             });
-          }).catch((err) => {
-            console.log(err);
+                  }).catch((err) => {
+            console.log('Error creating book:', err);
             return res.status(400).json({
               message: 'Something went wrong, please try again.'
             });
           });
-    },
-
+          
+     },
+     
     edit: (req, res) => {
         let bookId = req.params.bookId;
         let editedBook = req.body;
