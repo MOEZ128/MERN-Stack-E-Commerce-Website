@@ -67,11 +67,19 @@
             Total price: <b>{{cart.totalPrice | number:'1.2-2'}}&#x24;</b>
           </div>
           <input
-            class="btn btn-success pull-right"
-            type="submit" value="Checkout"
-            [disabled]="cartForm.invalid"
-            (click)="onSubmit()"
-          />
+     class="btn btn-success pull-right"
+     type="submit" value="Checkout with Wallet"
+     [disabled]="cartForm.invalid"
+     (click)="onSubmitWithWallet()"
+ />
+
+ <input
+     class="btn btn-success pull-right"
+     type="submit" value="Checkout with Points"
+     [disabled]="cartForm.invalid"
+     (click)="onSubmitWithPoints()"
+ />
+
           <a routerLink="/book/store/default" class="btn btn-secondary">
             Continue shopping
           </a>

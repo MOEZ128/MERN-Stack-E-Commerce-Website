@@ -1,13 +1,13 @@
 // Decorators
 import { Injectable } from '@angular/core';
-
+import { catchError } from 'rxjs/operators';
 // RXJS
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 
 // HTTP
 import { HttpClient } from '@angular/common/http';
-
+import { throwError } from 'rxjs';
 // Models
 import { ServerResponse } from '../models/server-response.model';
 import { Cart } from '../models/cart.model';
@@ -31,13 +31,17 @@ export class CartService {
 
   getCart(): Observable<ServerResponse<Cart>> {
     return this.http.get<ServerResponse<Cart>>(baseUrl)
-      .pipe(
-        map(res => {
-          res.data.books.map(b => b.qty = 1);
-          return res;
-        })
-      );
-  }
+     .pipe(
+       map(res => {
+         res.data.books.map(b => b.qty = 1);
+         return res;
+       }),
+       catchError(error => {
+         console.error('Something went wrong while fetching the cart', error);
+         return throwError('Something went wrong while fetching the cart');
+       })
+     );
+   }   
 
   addToCart(id: string): Observable<ServerResponse<Cart>> {
     return this.http.post<ServerResponse<Cart>>(baseUrl + addToCartEndpoint + id, {});
@@ -50,4 +54,5 @@ export class CartService {
   checkout(payload: object): Observable<ServerResponse<object>> {
     return this.http.post<ServerResponse<object>>(baseUrl + checkoutEndpoint, payload);
   }
+  
 }

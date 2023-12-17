@@ -103,79 +103,83 @@ module.exports = {
         let userId = req.user.id;
         let totalPrice = 0;
         let products = [];
-    
+        const usePoints = req.body.usePoints;
+
         CART.findOne({ user: userId })
             .populate('books')
             .then((cart) => {
                 for (let book of cart.books) {
                     totalPrice += book.price * req.body[book._id.toString()];
                     products.push({
-                        id: book._id,
-                        title: book.title,
-                        author: book.author,
-                        cover: book.cover,
-                        price: book.price,
-                        qty: req.body[book._id.toString()],
-                        url: book.url // Include the 'url' property
-
+                       id: book._id,
+                       title: book.title,
+                       author: book.author,
+                       cover: book.cover,
+                       price: book.price,
+                       qty: req.body[book._id.toString()],
+                       url: book.url // Include the 'url' property
                     });
                 }
-    
-                // Update user wallet
+     
+                // Update user wallet and points
                 USER.findOneAndUpdate(
-                    { _id: userId, wallet: { $gte: totalPrice } },
-                    { $inc: { wallet: -totalPrice } },
+                    { _id: userId }, // No need to check wallet or points here
+                    { $inc: { wallet: usePoints ? 0 : -totalPrice, points: usePoints ? -totalPrice / 3 : 0 } }, // Subtract the equivalent amount in points or money based on usePoints
                     { new: true, runValidators: true }
                 )
                     .then((user) => {
-                        if (!user) {
+                       if (!user) {
+                           return res.status(400).json({
+                               message: 'User not found'
+                           });
+                        } else if (user.wallet < 0 && user.points < totalPrice / 3) {
                             return res.status(400).json({
-                                message: 'You don\'t have enough money'
-                            });
-                        }
-    
-                        // Wallet updated successfully, proceed with creating receipt
-                        RECEIPT.create({
-                            user: userId,
-                            productsInfo: products,
-                            totalPrice: totalPrice
-                        })
-                            .then((receipt) => {
-                                // Update user with the receipt ID
-                                USER.updateOne(
-                                    { _id: userId },
-                                    { $push: { receipts: receipt._id } }
-                                )
-                                    .then(() => {
-                                        // Clear the cart
-                                        cart.books = [];
-                                        cart.totalPrice = 0;
-                                        cart.save();
-    
-                                        return res.status(200).json({
-                                            message: 'Thank you for your order! Books will be sent to you as soon as possible!',
-                                            data: receipt
-                                        });
-                                    })
-                                    .catch((err) => {
-                                        console.log(err);
-                                        return res.status(400).json({
-                                            message: 'Something went wrong while updating user with receipt ID.'
-                                        });
-                                    });
-                            })
-                            .catch((err) => {
-                                console.log(err);
-                                return res.status(400).json({
-                                    message: 'Something went wrong while creating the receipt.'
-                                });
-                            });
+                               message: 'You don\'t have enough money and points'
+                           });
+                       } else {
+                           // Wallet updated successfully, proceed with creating receipt
+                           RECEIPT.create({
+                               user: userId,
+                               productsInfo: products,
+                               totalPrice: totalPrice
+                           })
+                               .then((receipt) => {
+                                   // Update user with the receipt ID
+                                   USER.updateOne(
+                                      { _id: userId },
+                                      { $push: { receipts: receipt._id } }
+                                   )
+                                      .then(() => {
+                                          // Clear the cart
+                                          cart.books = [];
+                                          cart.totalPrice = 0;
+                                          cart.save();
+     
+                                          return res.status(200).json({
+                                              message: 'Thank you for your order! Books will be sent to you as soon as possible!',
+                                              data: receipt
+                                          });
+                                      })
+                                      .catch((err) => {
+                                          console.log(err);
+                                          return res.status(400).json({
+                                              message: 'Something went wrong while updating user with receipt ID.'
+                                          });
+                                      });
+                               })
+                               .catch((err) => {
+                                   console.log(err);
+                                   return res.status(400).json({
+                                      message: 'Something went wrong while creating the receipt.'
+                                   });
+                               });
+                       }
                     })
                     .catch((err) => {
-                        console.log(err);
-                        return res.status(400).json({
-                            message: 'Something went wrong while updating the user wallet.'
-                        });
+                       console.log(err);
+                       return res.status(400).json({
+                           message: 'Something went wrong while updating the user wallet and points.'
+                       });
                     });
             })
             .catch((err) => {
@@ -184,7 +188,7 @@ module.exports = {
                     message: 'Something went wrong while fetching the cart.'
                 });
             });
-    }
-    
+     }
+     
     }
  

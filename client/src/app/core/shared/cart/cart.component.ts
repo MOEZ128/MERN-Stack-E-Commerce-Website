@@ -104,14 +104,26 @@ export class CartComponent implements OnInit, OnDestroy {
       });
   }
 
-  onSubmit(): void {
+
+  onSubmitWithWallet(): void {
     this.cartService
-      .checkout(this.cartForm.value)
-      .subscribe(() => {
-        this.helperService.cartStatus.next('updateStatus');
-        this.router.navigate(['/user/purchaseHistory']);
-      });
+        .checkout({ usePoints: false, ...this.cartForm.value })
+        .subscribe(() => {
+            this.helperService.cartStatus.next('updateStatus');
+            this.router.navigate(['/user/purchaseHistory']);
+        });
   }
+  
+  onSubmitWithPoints(): void {
+    this.cartService
+        .checkout({ usePoints: true, ...this.cartForm.value })
+        .subscribe(() => {
+            this.helperService.cartStatus.next('updateStatus');
+            this.router.navigate(['/user/purchaseHistory']);
+        });
+  }
+
+
 
   reCalcSum(formValues: object): void {
     let price = 0;
