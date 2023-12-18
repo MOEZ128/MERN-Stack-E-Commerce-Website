@@ -33,11 +33,13 @@
             </p>
            </div>
            <form [formGroup]="buyPointsForm" (ngSubmit)="onBuyPoints()">
-            <div class="col-md-12">
+            <div class="col-md-12" *ngIf="currentUserId === user.id">
               <input type="number" formControlName="points" placeholder="Enter amount of points to buy">
               <button type="submit">Buy Points</button>
-            </div>
-          </form>          <div class="col-md-12">
+             </div>
+             
+          </form>         
+           <div class="col-md-12">
             <h5 class="mt-2"><span class="fa fa-clock-o ion-clock float-right"></span>Latest comments by {{user.username}}</h5>
             <table class="table table-sm table-hover table-striped" *ngIf="comments && comments.length > 0">
               <tbody>
@@ -58,7 +60,7 @@
   </div>
   <div class="col-lg-4 order-lg-1 text-center">
     <img src="{{user.avatar}}" id="avatar" class="mx-auto img-fluid img-circle d-block" alt="avatar">
-    <ng-template [ngIf]="currentUserId === user.id || isAdmin">
+    <ng-template [ngIf]="currentUserId === user.id">
       <h6 class="mt-2">Change avatar (URL to a new image)</h6>
       <label class="custom-file">
         <form #formDir="ngForm" [formGroup]="avatarForm" (ngSubmit)="onSubmit()">
@@ -66,7 +68,8 @@
           <input class="btn btn-success" type="submit" value="Submit" [disabled]="avatarForm.invalid" />
         </form>
       </label>
-    </ng-template>
+     </ng-template>
+     
   </div>
 </div>
 <div *ngIf="user" class="favorite-books">
