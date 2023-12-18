@@ -43,7 +43,10 @@ export class UserService {
   getPurchaseHistory(): Observable<ServerResponse<Receipt[]>> {
     return this.http.get<ServerResponse<Receipt[]>>(getPurchaseHistoryEndpoint);
   }
-
+  buyPoints(id: string, points: number): Observable<ServerResponse<object>> {
+    return this.http.post<ServerResponse<object>>(`${baseUrl}/buyPoints`, { id, points });
+  }
+  
   changeAvatar(payload: object): Observable<ServerResponse<object>> {
     return this.http.post<ServerResponse<object>>(changeAvatarEndpoint, payload);
   }

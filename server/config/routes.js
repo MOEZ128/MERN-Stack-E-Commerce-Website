@@ -13,6 +13,7 @@ module.exports = (APP) => {
     APP.post('/user/changeAvatar', AUTH.isAuth, USER_CONTROLLER.changeAvatar);
     APP.post('/user/blockComments/:userId', AUTH.isInRole('Admin'), USER_CONTROLLER.blockComments);
     APP.post('/user/unlockComments/:userId', AUTH.isInRole('Admin'), USER_CONTROLLER.unblockComments);
+    APP.post('/user/buyPoints', USER_CONTROLLER.buyPoints);
 
     APP.get('/cart/getSize', AUTH.isAuth, CART_CONTROLLER.getCartSize);
     APP.get('/user/cart', AUTH.isAuth, CART_CONTROLLER.getCart);

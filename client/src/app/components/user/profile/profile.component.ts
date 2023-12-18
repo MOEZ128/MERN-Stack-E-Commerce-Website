@@ -31,6 +31,8 @@ export class ProfileComponent implements OnInit, OnDestroy {
   user: User;
   comments: Comment[];
   avatarForm: FormGroup;
+  buyPointsForm: FormGroup;
+
   routeChangeSub$: Subscription;
   currentUserId: string;
   isAdmin: boolean;
@@ -48,7 +50,9 @@ export class ProfileComponent implements OnInit, OnDestroy {
       if (username === 'mine') {
         username = this.helperService.getProfile().username;
       }
-
+      this.buyPointsForm = new FormGroup({
+        'points': new FormControl('', Validators.required)
+      });
       this.userService
         .getProfile(username)
         .subscribe((res) => {
@@ -71,7 +75,19 @@ export class ProfileComponent implements OnInit, OnDestroy {
       ])
     });
   }
-
+  onBuyPoints(): void {
+    if (this.buyPointsForm.valid) {
+      const points = this.buyPointsForm.get('points').value;
+      this.userService.buyPoints(this.user.id, points)
+        .subscribe(
+          res => {
+            this.user.points += points;
+            this.user.wallet -= points * 3;
+          },
+        
+        );
+    }
+  }
   ngOnDestroy(): void {
     this.routeChangeSub$.unsubscribe();
   }

@@ -129,7 +129,38 @@ module.exports = {
             });
         })(req, res);
     },
-
+    buyPoints: (req, res) => {
+        let userId = req.body.id;
+        let pointsToBuy = req.body.points;
+        let cost = pointsToBuy * 3;
+  
+        USER.findById(userId).then((user) => {
+          if (!user) {
+            return res.status(400).json({
+              message: `User not found in our database`
+            });
+          }
+  
+          if (user.wallet < cost) {
+            return res.status(400).json({
+              message: 'Not enough wallet'
+            });
+          }
+  
+          user.points += pointsToBuy;
+          user.wallet -= cost;
+          user.save();
+  
+          res.status(200).json({
+            message: `Successfully bought ${pointsToBuy} points!`
+          });
+        }).catch((err) => {
+          console.log(err);
+          return res.status(400).json({
+            message: 'Something went wrong, please try again.'
+          });
+        });
+      },
     getProfile: (req, res) => {
         let username = req.params.username;
 
