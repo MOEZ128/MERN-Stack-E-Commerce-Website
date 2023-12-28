@@ -4,6 +4,8 @@
   <ng-template [ngIf]="isUserLogged()">
     <a routerLink="/user/purchaseHistory">Purchase History</a>
     <a routerLink="/book/create">Create Book</a>
+    <a *ngIf="isUserAdmin()" routerLink="/user/reports">Reports</a>
+
   </ng-template>
   <div class="search-container">
     <form #formDir="ngForm" [formGroup]="searchForm" (ngSubmit)="onSubmit()">

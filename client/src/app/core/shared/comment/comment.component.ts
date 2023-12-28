@@ -5,6 +5,8 @@ import { BsModalRef } from 'ngx-bootstrap/modal/bs-modal-ref.service';
 // Services
 import { CommentService } from '../../services/comment.service';
 import { BsModalService } from 'ngx-bootstrap/modal';
+import { ReportService } from '../../services/report.service';
+import { Report } from '../../models/report.model';
 
 // Models
 import { Comment } from '../../models/comment.model';
@@ -28,10 +30,14 @@ export class CommentComponent implements OnInit {
   lastEditId: string;
   lastDeleteId: string;
   action: string;
-
+  reportForm: FormGroup;
+  reportModalRef: BsModalRef;
+  
   constructor(
     private commentService: CommentService,
-    private modalService: BsModalService
+    private modalService: BsModalService,
+    private reportService: ReportService
+
   ) { }
 
   ngOnInit(): void {
@@ -44,6 +50,28 @@ export class CommentComponent implements OnInit {
       .subscribe((res) => {
         this.comments = res.data;
       });
+      this.reportForm = new FormGroup({
+        'reason': new FormControl('', [Validators.required])
+       });
+       
+  }
+  openReportModal(template: TemplateRef<any>, id: string): void {
+    this.lastEditId = id;
+    this.reportModalRef = this.modalService.show(
+      template,
+      { class: 'myModal' }
+    );
+  }
+  
+  submitReport(): void {
+    const report: Report = this.reportForm.value;
+    this.reportService.reportComment(this.lastEditId, report).subscribe(() => {
+      console.log('Report submitted successfully');
+      this.reportModalRef.hide();
+      this.reportForm.reset();
+    }, error => {
+      console.log('Error occurred while submitting report: ', error);
+    });
   }
 
   openFormModal(template: TemplateRef<any>, id?: string): void {

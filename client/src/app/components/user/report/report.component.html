@@ -1,0 +1,7 @@
+<!-- report.component.html -->
+<div *ngFor="let r of reports">
+  <h3>Reported by: {{r.reporter.username}}</h3>
+  <p>Reported User: {{r.reportedUser.username}}</p>
+  <p>Comment: {{r.comment.content}}</p>
+  <p>Reason: {{r.reason}}</p>
+</div>

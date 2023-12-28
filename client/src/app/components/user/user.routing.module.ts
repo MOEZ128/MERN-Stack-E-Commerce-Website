@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 // Modules
 import { RouterModule, Routes } from '@angular/router';
-
+import { ReportComponent } from './report/report.component';
 // Components
 import { RegisterComponent } from './register/register.component';
 import { LoginComponent } from './login/login.component';
@@ -41,6 +41,9 @@ const userRoutes: Routes = [
     canActivate: [IsAnonymousGuard],
     component: RegisterComponent
   },
+  { path: 'reports', 
+    component: ReportComponent },
+
   {
     path: 'login',
     canActivate: [IsAnonymousGuard],

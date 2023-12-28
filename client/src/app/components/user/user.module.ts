@@ -12,13 +12,15 @@ import { RegisterComponent } from './register/register.component';
 import { LoginComponent } from './login/login.component';
 import { ProfileComponent } from './profile/profile.component';
 import { ReceiptsComponent } from './receipts/receipts.component';
+import { ReportComponent } from './report/report.component';
 
 @NgModule({
   declarations: [
     RegisterComponent,
     LoginComponent,
     ProfileComponent,
-    ReceiptsComponent
+    ReceiptsComponent,
+    ReportComponent
   ],
   imports: [
     CommonModule,

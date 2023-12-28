@@ -3,6 +3,7 @@ const BOOK_CONTROLLER = require('../controllers/book');
 const COMMENT_CONTROLLER = require('../controllers/comment');
 const CART_CONTROLLER = require('../controllers/cart');
 const ERROR_CONTROLLER = require('../controllers/error');
+const REPORT_CONTROLLER = require('../controllers/report');
 const AUTH = require('./auth');
 
 module.exports = (APP) => {
@@ -35,6 +36,9 @@ module.exports = (APP) => {
     APP.post('/comment/add/:bookId', AUTH.isAuth, COMMENT_CONTROLLER.add);
     APP.put('/comment/edit/:commentId', AUTH.isAuth, COMMENT_CONTROLLER.edit);
     APP.delete('/comment/delete/:commentId', AUTH.isAuth, COMMENT_CONTROLLER.delete);
+
+APP.post('/report/:commentId', AUTH.isAuth, REPORT_CONTROLLER.reportComment);
+APP.get('/report', AUTH.isInRole('Admin'), REPORT_CONTROLLER.getReports);
 
     APP.all('*', ERROR_CONTROLLER.error);
 };

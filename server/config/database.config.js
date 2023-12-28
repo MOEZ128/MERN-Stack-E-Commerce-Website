@@ -21,4 +21,5 @@ module.exports = (config) => {
     require('../models/Receipt');
     require('../models/Book');
     require('../models/Comment');
+    require('../models/Report');
 };

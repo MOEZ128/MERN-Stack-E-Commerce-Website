@@ -37,10 +37,26 @@
           class="btn btn-danger btn-sm"
           (click)="openRemoveModal(remove, c._id)">Delete Comment
         </button>
+        <button
+ type="button"
+ class="btn btn-warning btn-sm"
+ (click)="openReportModal(reportFormTemplate)">Report Comment
+</button>
         </div>
       </div>
     </div>
+<!-- comment.component.html -->
 
+<ng-template #reportFormTemplate>
+  <form [formGroup]="reportForm" (ngSubmit)="submitReport()">
+    <div class="form-group">
+      <label for="report-reason">Report Reason:</label>
+      <textarea id="report-reason" formControlName="reason" class="form-control"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary" [disabled]="reportForm.invalid">Submit Report</button>
+  </form>
+ </ng-template>
+ 
     <div class="row pt-2">
       <div class="col-12">
         <button type="button" class="btn btn-primary" (click)="loadMoreComments()">Load More...</button>
