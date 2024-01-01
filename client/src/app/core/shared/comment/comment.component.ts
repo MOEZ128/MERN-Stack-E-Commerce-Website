@@ -55,8 +55,8 @@ export class CommentComponent implements OnInit {
        });
        
   }
-  openReportModal(template: TemplateRef<any>, id: string): void {
-    this.lastEditId = id;
+  openReportModal(template: TemplateRef<any>, commentId: string): void {
+    this.lastEditId = commentId;
     this.reportModalRef = this.modalService.show(
       template,
       { class: 'myModal' }
@@ -64,7 +64,15 @@ export class CommentComponent implements OnInit {
   }
   
   submitReport(): void {
-    const report: Report = this.reportForm.value;
+    let commentObj = this.comments.find(c => c._id === this.lastEditId);
+    const report: Report = {
+      _id: this.lastEditId, 
+      reporterId: this.userId, 
+      reportedUserId: commentObj.user._id, // the id of the user who made the comment
+      comment: commentObj, 
+      reason: this.reportForm.value.reason
+    };
+  
     this.reportService.reportComment(this.lastEditId, report).subscribe(() => {
       console.log('Report submitted successfully');
       this.reportModalRef.hide();
@@ -73,8 +81,7 @@ export class CommentComponent implements OnInit {
       console.log('Error occurred while submitting report: ', error);
     });
   }
-
-  openFormModal(template: TemplateRef<any>, id?: string): void {
+      openFormModal(template: TemplateRef<any>, id?: string): void {
     if (id) {
       let content = '';
       this.isFromEdit = true;
