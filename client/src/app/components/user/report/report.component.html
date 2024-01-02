@@ -2,5 +2,8 @@
   <h3>Reported by: {{r.reporter?.username}}</h3>
   <p>Reported User: {{r.reportedUser?.username}}</p>
   <p>Comment: {{r.comment?.content}}</p>
-  <p>Reason: {{r.reason}}</p>
+  <p>Reason: 
+    <span *ngFor="let reason of r.reason">{{reason}}<br></span>
+  </p>
  </div>
+ 
