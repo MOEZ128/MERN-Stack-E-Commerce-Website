@@ -8,7 +8,7 @@
           public reporterId: string,
           public reportedUserId: string,
           public comment: Comment,
-          public reason: string,
+          public reason: string[],
           public creationDate?: Date
         ) { }
       }

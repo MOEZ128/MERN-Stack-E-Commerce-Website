@@ -11,7 +11,7 @@ import { Report } from '../../models/report.model';
 // Models
 import { Comment } from '../../models/comment.model';
 import { FormGroup, FormControl, Validators } from '@angular/forms';
-
+import { FormArray } from '@angular/forms';
 @Component({
   selector: 'app-comment',
   templateUrl: './comment.component.html',
@@ -51,8 +51,14 @@ export class CommentComponent implements OnInit {
         this.comments = res.data;
       });
       this.reportForm = new FormGroup({
-        'reason': new FormControl('', [Validators.required])
-       });
+        'reason': new FormArray([
+          new FormControl(false), // Langage offensant
+          new FormControl(false), // Le harcèlement direct
+          new FormControl(false), // Spam
+          new FormControl(false), // Médias sensibles
+          new FormControl(false)  // Menace pour la vie privée
+        ])
+    });
        
   }
   openReportModal(template: TemplateRef<any>, commentId: string): void {
@@ -64,13 +70,38 @@ export class CommentComponent implements OnInit {
   }
   
   submitReport(): void {
+    let reasons = [];
+    let checkboxes = document.querySelectorAll('input[type="checkbox"]');
+  
+    checkboxes.forEach((checkbox: HTMLInputElement, index) => {
+      if (checkbox.checked) {
+            switch (index) {
+          case 0:
+            reasons.push('Langage offensant');
+            break;
+          case 1:
+            reasons.push('Le harcèlement direct');
+            break;
+          case 2:
+            reasons.push('Spam');
+            break;
+          case 3:
+            reasons.push('Médias sensibles');
+            break;
+          case 4:
+            reasons.push('Menace pour la vie privée');
+            break;
+        }
+      }
+    });
+  
     let commentObj = this.comments.find(c => c._id === this.lastEditId);
     const report: Report = {
       _id: this.lastEditId, 
       reporterId: this.userId, 
-      reportedUserId: commentObj.user._id, // the id of the user who made the comment
+      reportedUserId: commentObj.user._id,
       comment: commentObj, 
-      reason: this.reportForm.value.reason
+      reason: reasons
     };
   
     this.reportService.reportComment(this.lastEditId, report).subscribe(() => {
@@ -81,6 +112,8 @@ export class CommentComponent implements OnInit {
       console.log('Error occurred while submitting report: ', error);
     });
   }
+  
+
       openFormModal(template: TemplateRef<any>, id?: string): void {
     if (id) {
       let content = '';

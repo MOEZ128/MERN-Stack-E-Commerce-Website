@@ -6,7 +6,7 @@ const REPORT_SCHEMA = MONGOOSE.Schema({
   reporter: { type: OBJECT_ID, ref: 'User' },
   reportedUser: { type: OBJECT_ID, ref: 'User' },
   comment: { type: OBJECT_ID, ref: 'Comment' },
-  reason: { type: String, required: true },
+  reason: { type: [String], required: true },
   creationDate: { type: Date, default: Date.now }
 });
 

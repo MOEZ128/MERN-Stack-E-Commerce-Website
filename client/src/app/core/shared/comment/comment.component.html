@@ -50,12 +50,16 @@
 <ng-template #reportFormTemplate>
   <form [formGroup]="reportForm" (ngSubmit)="submitReport()">
     <div class="form-group">
-      <label for="report-reason">Report Reason:</label>
-      <textarea id="report-reason" formControlName="reason" class="form-control"></textarea>
+      <label>Report Reason:</label>
+      <label><input type="checkbox" formArrayName="reason" [formControlName]="0"> Langage offensant </label>
+      <label><input type="checkbox" formArrayName="reason" [formControlName]="1"> Le harcèlement direct </label>
+      <label><input type="checkbox" formArrayName="reason" [formControlName]="2"> Spam </label>
+      <label><input type="checkbox" formArrayName="reason" [formControlName]="3"> Médias sensibles </label>
+      <label><input type="checkbox" formArrayName="reason" [formControlName]="4"> Menace pour la vie privée </label>
     </div>
     <button type="submit" class="btn btn-primary" [disabled]="reportForm.invalid">Submit Report</button>
   </form>
- </ng-template>
+</ng-template>
  
     <div class="row pt-2">
       <div class="col-12">
