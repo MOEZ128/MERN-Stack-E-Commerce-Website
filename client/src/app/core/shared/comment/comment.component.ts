@@ -71,11 +71,11 @@ export class CommentComponent implements OnInit {
   
   submitReport(): void {
     let reasons = [];
-    let checkboxes = document.querySelectorAll('input[type="checkbox"]');
+    let checkboxes = Array.from(document.querySelectorAll('input[type="checkbox"]')); // Convert NodeList to array
   
     checkboxes.forEach((checkbox: HTMLInputElement, index) => {
       if (checkbox.checked) {
-            switch (index) {
+        switch (index) {
           case 0:
             reasons.push('Langage offensant');
             break;
