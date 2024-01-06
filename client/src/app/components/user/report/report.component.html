@@ -1,9 +1,16 @@
-<div *ngFor="let r of reports">
-  <h3>Reported by: {{r.reporter?.username}}</h3>
-  <p>Reported User: {{r.reportedUser?.username}}</p>
-  <p>Comment: {{r.comment?.content}}</p>
-  <p>Reason: 
-    <span *ngFor="let reason of r.reason">{{reason}}<br></span>
-  </p>
+<div class="report" *ngFor="let r of reports">
+  <div class="report_left">
+  <div class="report_element"> <p>{{r.reportedUser?.username}}
+<span style="color: rgb(255, 66, 66);">Reported by</span> {{r.reporter?.username}}</p></div>
+    <div class="report_element"> <p>  <span style="color:rgb(89, 255, 241) ;">Date:</span> {{r.creationDate | date:'medium'}}</p></div> <!-- Display date here -->
+
+  </div>
+  <div class="report_right">
+  <div class="report_element"> <span style="color:rgb(89, 255, 241) ;"> Reason:</span>
+    <p>  <span *ngFor="let reason of r.reason"> -{{reason}}</span>
+  </p></div>
+    <div class="report_element"><p><span style="color:rgb(89, 255, 241) ;"> Proof: </span>{{r.comment?.content}}</p></div>
+
+  </div>
  </div>
  

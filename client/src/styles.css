@@ -14,7 +14,7 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 22px;
-  background-color: #1D211E;
+  background-color: black;
   color: #FFF;
   text-align: center;
 }
