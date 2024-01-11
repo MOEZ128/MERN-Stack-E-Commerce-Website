@@ -1,6 +1,22 @@
 const VALIDATOR = require('validator');
 const BOOK = require('mongoose').model('Book');
 const USER = require('mongoose').model('User');
+const multer = require('multer');
+const fs = require('fs');
+const path = require('path');
+const storage = multer.diskStorage({
+    
+  destination: function(req, file, cb) {
+    cb(null, 'uploads/'); // Make sure this uploads directory exists
+  },
+  filename: function(req, file, cb) {
+    cb(null, new Date().toISOString().replace(/:/g, '-') + file.originalname);
+  }
+});
+
+const upload = multer({ storage: storage });
+
+
 
 const PAGE_LIMIT = 15;
 
@@ -27,10 +43,7 @@ function validateBookForm(payload) {
         isFormValid = false;
         errors.year = 'Please provide book release year.';
     }
-    if (!payload || !payload.url || !VALIDATOR.isURL(payload.url)) {
-        isFormValid = false;
-        errors.url = 'Please provide a valid URL.';
-      }
+ 
     if (!payload || typeof payload.description !== 'string' || payload.description.trim().length < 10) {
         isFormValid = false;
         errors.description = 'Description must be at least 10 symbols long.';
@@ -84,6 +97,27 @@ function validateRatingForm(payload) {
 }
 
 module.exports = {
+ 
+    downloadBook: (req, res) => {
+        const bookId = req.params.bookId;
+    
+        BOOK.findById(bookId, (err, book) => {
+          if (err || !book) {
+            return res.status(404).json({
+              message: 'Book not found',
+            });
+          }
+    
+          const filePath = path.join(__dirname, '..', book.url); // Assuming 'uploads' is in the parent directory
+    
+          // Stream the file to the client for download
+          const fileStream = fs.createReadStream(filePath);
+          res.setHeader('Content-Disposition', 'attachment; filename=' + book.url);
+          res.setHeader('Content-Type', 'application/octet-stream');
+    
+          fileStream.pipe(res);
+        });
+      },
     getByGenre: (req, res) => {
         let genre = req.params.genre;
       
@@ -128,18 +162,21 @@ module.exports = {
     add: (req, res) => {
         let book = req.body;
         let userId = req.user.id;
-
+   
+        if (req.file) {
+            book.url = req.file.path;
+        }
+   
         let validationResult = validateBookForm(book);
-     
+   
         if (!validationResult.success) {
             return res.status(400).json({
                 message: 'Book form validation failed!',
                 errors: validationResult.errors
             });
         }
-     
+   
         BOOK.create(book).then((newBook) => {
-
             USER.findByIdAndUpdate(userId, { $inc: { points: 1 } }, { new: true })
             .then((user) => {
               return res.status(200).json({
@@ -149,15 +186,13 @@ module.exports = {
             }).catch((err) => {
               console.log('Error updating user:', err);
             });
-                  }).catch((err) => {
+        }).catch((err) => {
             console.log('Error creating book:', err);
             return res.status(400).json({
               message: 'Something went wrong, please try again.'
             });
-          });
-          
-     },
-     
+        });
+    },
     edit: (req, res) => {
         let bookId = req.params.bookId;
         let editedBook = req.body;

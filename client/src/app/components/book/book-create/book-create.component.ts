@@ -21,6 +21,8 @@ import { isIsbnValidator } from '../../../core/directives/is-isbn.directive';
 })
 export class BookCreateComponent implements OnInit {
   createBookForm: FormGroup;
+  selectedFile: File = null;
+
 
   constructor(
     private router: Router,
@@ -50,8 +52,6 @@ export class BookCreateComponent implements OnInit {
         isUrlValidator
       ]),
       'url': new FormControl('', [
-        Validators.required,
-        isUrlValidator  // You can use the isUrlValidator you already have for the 'cover' field
       ]),
       'isbn': new FormControl('', [
         Validators.required,
@@ -67,14 +67,29 @@ export class BookCreateComponent implements OnInit {
       ])
     });
   }
-
-  onSubmit(): void {
-    this.bookService
-      .createBook(this.createBookForm.value)
-      .subscribe((res) => {
-        this.router.navigate([`/book/details/${res.data._id}`]);
-      });
+  onFileSelected(event): void {
+    this.selectedFile = <File>event.target.files[0];
   }
+  
+  onSubmit(): void {
+    const formData = new FormData();
+    formData.append('url', this.selectedFile, this.selectedFile.name);
+    formData.append('title', this.createBookForm.get('title').value);
+  formData.append('author', this.createBookForm.get('author').value);
+  formData.append('genre', this.createBookForm.get('genre').value);
+  formData.append('year', this.createBookForm.get('year').value);
+  formData.append('description', this.createBookForm.get('description').value);
+  formData.append('cover', this.createBookForm.get('cover').value);
+  formData.append('isbn', this.createBookForm.get('isbn').value);
+  formData.append('pagesCount', this.createBookForm.get('pagesCount').value);
+  formData.append('price', this.createBookForm.get('price').value);
+  
+  this.bookService
+  .createBook(formData)
+  .subscribe((res) => {
+    this.router.navigate([`/book/details/${res.data._id}`]);
+  });
+}
 
   get title(): AbstractControl {
     return this.createBookForm.get('title');

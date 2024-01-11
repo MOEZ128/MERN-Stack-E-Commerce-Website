@@ -1,5 +1,6 @@
 // Decorators and Lifehooks
 import { Component, OnInit } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
 
 // Router
 import { Router, ActivatedRoute } from '@angular/router';
@@ -27,13 +28,16 @@ export class BookDetailsComponent implements OnInit {
   isAdded: boolean;
   isBought: boolean;
   stars = ['', '', '', '', ''];
+  
 
   constructor(
     private router: Router,
     private route: ActivatedRoute,
     private bookService: BookService,
     private cartService: CartService,
-    private helperService: HelperService
+    private helperService: HelperService,
+    private http: HttpClient  // Inject HttpClient
+
   ) { }
 
   ngOnInit(): void {
@@ -49,8 +53,23 @@ export class BookDetailsComponent implements OnInit {
         this.calcRating(this.book.currentRating);
       });
   }
+  
   downloadBook(): void {
-    window.open(this.book.url, "_blank");
+    this.bookService.downloadBook(this.bookId).subscribe(
+      (data) => {
+        // Create a blob from the response
+        const blob = new Blob([data], { type: 'application/octet-stream' });
+
+        // Create a link element and click it to trigger the download
+        const link = document.createElement('a');
+        link.href = window.URL.createObjectURL(blob);
+        link.download = this.book.url; // Use the filename from the server
+        link.click();
+      },
+      (error) => {
+        console.error('Error downloading the book:', error);
+      }
+    );
   }
   buyBook(): void {
     this.cartService

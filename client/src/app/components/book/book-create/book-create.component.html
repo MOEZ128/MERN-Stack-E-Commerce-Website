@@ -59,16 +59,8 @@
       </div>
     </div>
     <div class="form-field">
-      <input type="url" class="url" name="url" placeholder="Book URL" formControlName="url" />
-      <i class="fas fa-link" aria-hidden="true"></i>
-      <div *ngIf="url.invalid && (url.dirty || url.touched)" class="input-error">
-        <div *ngIf="url.errors.required">
-          Book URL is required
-        </div>
-        <div *ngIf="!url.errors.isUrl">
-          Book URL must be a valid Url
-        </div>
-      </div>
+      <input type="file" class="url" name="url" (change)="onFileSelected($event)" />
+      <i class="fas fa-upload" aria-hidden="true"></i>
     </div>
     <div class="form-field">
       <input type="text" class="isbn" name="isbn" placeholder="Book ISBN" formControlName="isbn" />
